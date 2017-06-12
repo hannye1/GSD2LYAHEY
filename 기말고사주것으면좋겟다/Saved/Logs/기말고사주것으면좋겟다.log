@@ -334,4 +334,244 @@ Localization Resource: (C:/Program Files/Epic Games/UE_4.12/Engine/Content/Local
 [2017.06.12-12.12.01:040][ 53]LogWorld: Bringing up level for play took: 0.002538
 [2017.06.12-12.12.01:114][ 53]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: -0.547
 [2017.06.12-12.15.07:823][757]LogSavePackage: Save=233.03ms
-[2017.06.12-12.15.07:826][757]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/BaseMap989F77804BEE32
+[2017.06.12-12.15.07:826][757]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/BaseMap989F77804BEE32AF3E5EF0A7087E3ECB.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/Maps/BaseMap.umap'
+[2017.06.12-12.15.07:953][757]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/Maps/BaseMap.umap
+[2017.06.12-12.23.04:146][446]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (밤하늘배경)
+[2017.06.12-12.23.05:233][506]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (밤하늘배경)
+[2017.06.12-12.25.32:361][570]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2017.06.12-12.25.32:383][570]LogPlayLevel: [PlayLevel] Compiling 기말게임 before play...
+[2017.06.12-12.25.32:546][570]LogPlayLevel: PlayLevel: Blueprint regeneration took 185 ms (1 blueprints)
+[2017.06.12-12.25.32:585][570]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 6:25:32)
+[2017.06.12-12.25.32:585][570]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.12-12.25.32:588][570]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003183s)
+[2017.06.12-12.25.32:589][570]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.12-12.25.32:589][570]LogPlayLevel: PIE: World Init took: (0.001283s)
+[2017.06.12-12.25.32:590][570]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.004776s)
+[2017.06.12-12.25.32:669][570]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.12-12.25.32:706][570]LogInit: FAudioDevice initialized.
+[2017.06.12-12.25.32:762][570]LogWorld: Game class is '게임모드_C'
+[2017.06.12-12.25.32:766][570]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-21.25.32
+[2017.06.12-12.25.32:766][570]LogWorld: Bringing up level for play took: 0.002154
+[2017.06.12-12.25.32:893][570]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 1.232
+[2017.06.12-12.26.31:856][509]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.12-12.26.31:857][509]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 6:26:31)
+[2017.06.12-12.26.31:857][509]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.12-12.26.31:869][509]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011611s)
+[2017.06.12-12.26.31:871][509]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.12-12.26.31:871][509]LogPlayLevel: PIE: World Init took: (0.002653s)
+[2017.06.12-12.26.31:872][509]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.014982s)
+[2017.06.12-12.26.32:042][509]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.12-12.26.32:186][509]LogInit: FAudioDevice initialized.
+[2017.06.12-12.26.32:337][509]LogWorld: Game class is '게임모드_C'
+[2017.06.12-12.26.32:353][509]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-21.26.32
+[2017.06.12-12.26.32:354][509]LogWorld: Bringing up level for play took: 0.012529
+[2017.06.12-12.26.32:908][509]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 1.247
+[2017.06.12-12.26.40:053][669]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.12-12.26.40:053][669]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 6:26:40)
+[2017.06.12-12.26.40:053][669]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.12-12.26.40:056][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003135s)
+[2017.06.12-12.26.40:058][669]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.12-12.26.40:058][669]LogPlayLevel: PIE: World Init took: (0.001328s)
+[2017.06.12-12.26.40:058][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.004700s)
+[2017.06.12-12.26.40:131][669]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.12-12.26.40:173][669]LogInit: FAudioDevice initialized.
+[2017.06.12-12.26.40:239][669]LogWorld: Game class is '게임모드_C'
+[2017.06.12-12.26.40:243][669]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-21.26.40
+[2017.06.12-12.26.40:243][669]LogWorld: Bringing up level for play took: 0.002099
+[2017.06.12-12.26.40:426][669]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 0.765
+[2017.06.12-12.27.34:634][631]LogEditorViewport: Clicking on Actor (LMB): 기말게임_C (기말게임)
+[2017.06.12-12.27.42:036][ 28]LogEditorActor: Deleted Actor: PlayerStart
+[2017.06.12-12.27.42:070][ 28]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2017.06.12-12.27.46:914][289]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.12-12.27.46:914][289]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 6:27:46)
+[2017.06.12-12.27.46:914][289]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.12-12.27.46:917][289]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003144s)
+[2017.06.12-12.27.46:919][289]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.12-12.27.46:919][289]LogPlayLevel: PIE: World Init took: (0.001886s)
+[2017.06.12-12.27.46:919][289]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.005286s)
+[2017.06.12-12.27.46:971][289]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.12-12.27.47:003][289]LogInit: FAudioDevice initialized.
+[2017.06.12-12.27.47:078][289]LogWorld: Game class is '게임모드_C'
+[2017.06.12-12.27.47:084][289]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-21.27.47
+[2017.06.12-12.27.47:084][289]LogWorld: Bringing up level for play took: 0.003536
+[2017.06.12-12.27.47:259][289]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: -0.401
+[2017.06.12-12.28.26:805][810]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: {GameModeName}".
+[2017.06.12-12.28.26:805][810]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "게임모드: {GameModeName} 편집".
+[2017.06.12-12.29.07:560][ 31]LogEditorViewport: Clicking on Actor (LMB): 기말게임_C (기말게임)
+[2017.06.12-12.29.23:539][787]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.06.12-12.29.23:539][787]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.12-12.29.23:539][787]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 6:29:23)
+[2017.06.12-12.29.23:539][787]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.12-12.29.23:543][787]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003657s)
+[2017.06.12-12.29.23:544][787]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.12-12.29.23:544][787]LogPlayLevel: PIE: World Init took: (0.001330s)
+[2017.06.12-12.29.23:544][787]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.005319s)
+[2017.06.12-12.29.23:637][787]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.12-12.29.23:663][787]LogInit: FAudioDevice initialized.
+[2017.06.12-12.29.23:754][787]LogWorld: Game class is '게임모드_C'
+[2017.06.12-12.29.23:757][787]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-21.29.23
+[2017.06.12-12.29.23:757][787]LogWorld: Bringing up level for play took: 0.001766
+[2017.06.12-12.29.23:768][787]LogTexture:Display: 텍스처 빌드중: VirtualJoystick_Background (BGRA8)
+[2017.06.12-12.29.23:775][787]LogTexture:Display: 텍스처 빌드중: VirtualJoystick_Thumb (BGRA8)
+[2017.06.12-12.29.23:780][787]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 0.119
+[2017.06.12-12.29.23:781][787]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.06.12-12.29.31:929][265]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.06.12-12.29.32:030][265]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.06.12-12.30.45:701][281]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.06.12-12.30.45:701][281]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.12-12.30.45:701][281]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 6:30:45)
+[2017.06.12-12.30.45:701][281]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.12-12.30.45:705][281]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003698s)
+[2017.06.12-12.30.45:706][281]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.12-12.30.45:706][281]LogPlayLevel: PIE: World Init took: (0.001067s)
+[2017.06.12-12.30.45:706][281]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.005026s)
+[2017.06.12-12.30.45:787][281]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.12-12.30.45:829][281]LogInit: FAudioDevice initialized.
+[2017.06.12-12.30.45:907][281]LogWorld: Game class is '게임모드_C'
+[2017.06.12-12.30.45:910][281]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-21.30.45
+[2017.06.12-12.30.45:911][281]LogWorld: Bringing up level for play took: 0.002330
+[2017.06.12-12.30.45:912][281]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 0.252
+[2017.06.12-12.30.45:913][281]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.06.12-12.30.46:274][296]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.30.46:547][309]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.30.47:321][353]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.30.48:294][409]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.30.48:966][451]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.30.49:831][502]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.30.51:190][577]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.30.51:446][593]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.30.52:624][654]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.30.53:407][699]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.30.54:516][773]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.30.54:657][781]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.30.55:815][845]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.30.56:731][899]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.30.57:764][937]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.30.58:753][963]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.30.59:004][970]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.30.59:132][973]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.31.00:344][  6]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.31.01:511][ 34]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.31.02:587][ 62]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.31.02:739][ 66]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.31.03:569][ 88]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.31.03:723][ 92]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.31.04:663][117]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.31.05:662][143]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.31.05:862][148]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.31.13:009][514]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.06.12-12.31.13:132][514]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.06.12-12.31.21:708][  0]LogRenderer: Reallocating scene render targets to support 1292x900 (Frame:12935).
+[2017.06.12-12.31.54:737][531]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.12-12.32.04:944][913]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.06.12-12.32.04:944][913]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.12-12.32.04:944][913]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 6:32:04)
+[2017.06.12-12.32.04:945][913]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.12-12.32.04:953][913]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008528s)
+[2017.06.12-12.32.04:956][913]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.12-12.32.04:957][913]LogPlayLevel: PIE: World Init took: (0.003354s)
+[2017.06.12-12.32.04:957][913]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.012445s)
+[2017.06.12-12.32.05:116][913]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.12-12.32.05:217][913]LogInit: FAudioDevice initialized.
+[2017.06.12-12.32.05:383][913]LogWorld: Game class is '게임모드_C'
+[2017.06.12-12.32.05:391][913]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-21.32.05
+[2017.06.12-12.32.05:391][913]LogWorld: Bringing up level for play took: 0.004609
+[2017.06.12-12.32.05:396][913]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: -0.265
+[2017.06.12-12.32.05:397][913]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.06.12-12.32.05:966][923]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.32.06:723][942]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.32.07:414][960]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.32.08:509][987]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.32.09:440][ 11]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.32.10:485][ 38]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.32.10:851][ 48]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.32.11:926][ 77]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.32.12:943][104]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.32.13:341][115]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.32.14:408][143]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.32.15:347][190]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.32.16:457][260]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.32.17:567][330]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.32.18:355][381]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.32.19:193][438]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.32.21:670][596]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.06.12-12.32.21:770][596]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.06.12-12.32.48:503][799]LogEditorViewport: Clicking on Actor (context menu): 기말게임_C (기말게임)
+[2017.06.12-12.33.37:329][408]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.06.12-12.33.37:329][408]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2017.06.12-12.33.37:341][408]LogPlayLevel: [PlayLevel] Compiling 기말게임 before play...
+[2017.06.12-12.33.37:546][408]LogPlayLevel: PlayLevel: Blueprint regeneration took 217 ms (1 blueprints)
+[2017.06.12-12.33.37:590][408]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 6:33:37)
+[2017.06.12-12.33.37:590][408]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.12-12.33.37:594][408]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004146s)
+[2017.06.12-12.33.37:596][408]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.12-12.33.37:596][408]LogPlayLevel: PIE: World Init took: (0.001864s)
+[2017.06.12-12.33.37:597][408]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.006433s)
+[2017.06.12-12.33.37:680][408]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.12-12.33.37:705][408]LogInit: FAudioDevice initialized.
+[2017.06.12-12.33.37:776][408]LogWorld: Game class is '게임모드_C'
+[2017.06.12-12.33.37:779][408]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-21.33.37
+[2017.06.12-12.33.37:780][408]LogWorld: Bringing up level for play took: 0.001989
+[2017.06.12-12.33.37:781][408]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 0.12
+[2017.06.12-12.33.37:781][408]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.06.12-12.33.38:252][435]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.33.38:357][443]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.33.39:055][488]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.33.40:874][598]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.06.12-12.33.40:980][598]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.06.12-12.34.39:935][949]LogSavePackage: Save=244.47ms
+[2017.06.12-12.34.39:935][949]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/BaseMap_Auto1C7EF6BEF431E16CB39AB15B0A4B8B4AC.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/Maps/BaseMap_Auto1.umap'
+[2017.06.12-12.34.39:957][949]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/Maps/BaseMap_Auto1.umap
+[2017.06.12-12.34.39:983][949]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/기말과제를끝내기위한폴더/Maps/BaseMap' took 0.432
+[2017.06.12-12.34.39:983][949]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.432
+[2017.06.12-12.34.39:985][949]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/기말과제를끝내기위한폴더/메인/기말게임] ([1] browsable assets)...
+[2017.06.12-12.34.40:005][949]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임]
+[2017.06.12-12.34.40:005][949]OBJ SavePackage: Finished generating thumbnails for package [/Game/기말과제를끝내기위한폴더/메인/기말게임]
+[2017.06.12-12.34.40:005][949]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/기말과제를끝내기위한폴더/메인/기말게임" FILE="E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/기말게임_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.06.12-12.34.40:286][949]LogSavePackage: Save=183.85ms
+[2017.06.12-12.34.40:286][949]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/기말게임_Auto1931D4C9B4AD15AD8715415A8920B583C.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/기말게임_Auto1.uasset'
+[2017.06.12-12.34.40:326][949]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/기말게임_Auto1.uasset
+[2017.06.12-12.34.40:326][949]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/기말과제를끝내기위한폴더/메인/게임모드] ([1] browsable assets)...
+[2017.06.12-12.34.40:326][949]OBJ SavePackage: Finished generating thumbnails for package [/Game/기말과제를끝내기위한폴더/메인/게임모드]
+[2017.06.12-12.34.40:327][949]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/기말과제를끝내기위한폴더/메인/게임모드" FILE="E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/게임모드_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.06.12-12.34.40:451][949]LogSavePackage: Save=55.47ms
+[2017.06.12-12.34.40:451][949]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/게임모드_Auto155BCDDD940109315A2A40CA32024B0DF.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/게임모드_Auto1.uasset'
+[2017.06.12-12.34.40:482][949]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/게임모드_Auto1.uasset
+[2017.06.12-12.34.40:482][949]LogFileHelpers: Auto-saving content packages took 0.498
+[2017.06.12-12.39.52:804][459]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.06.12-12.39.52:804][459]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.12-12.39.52:804][459]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 6:39:52)
+[2017.06.12-12.39.52:804][459]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.12-12.39.52:808][459]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003573s)
+[2017.06.12-12.39.52:809][459]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.12-12.39.52:809][459]LogPlayLevel: PIE: World Init took: (0.001004s)
+[2017.06.12-12.39.52:809][459]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.004808s)
+[2017.06.12-12.39.52:883][459]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.12-12.39.52:913][459]LogInit: FAudioDevice initialized.
+[2017.06.12-12.39.52:976][459]LogWorld: Game class is '게임모드_C'
+[2017.06.12-12.39.52:979][459]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-21.39.52
+[2017.06.12-12.39.52:979][459]LogWorld: Bringing up level for play took: 0.002020
+[2017.06.12-12.39.53:132][459]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: -0.529
+[2017.06.12-12.39.53:132][459]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.06.12-12.39.54:131][509]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.39.54:180][511]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.39.54:562][532]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.39.54:699][539]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.39.54:840][546]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.39.55:053][557]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.39.55:248][567]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.39.55:942][606]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.39.56:225][621]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.39.56:802][653]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.39.58:224][724]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.39.59:045][770]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.12-12.40.01:082][879]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.06.12-12.40.01:173][879]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.06.12-12.40.08:166][300]LogSavePackage: Save=233.18ms
+[2017.06.12-12.40.08:166][300]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/BaseMap65D64BE3474927659AB7DCA801CD38D1.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/Maps/BaseMap.umap'
+[2017.06.12-12.40.08:229][300]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/Maps/BaseMap.umap
+[2017.06.12-12.40.08:391][300]LogFileHelpers: Saving map 'BaseMap' took 0.913
+[2017.06.12-12.40.08:400][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/기말과제를끝내기위한폴더/메인/기말게임" FILE="E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/메인/기말게임.uasset" SILENT=true
+[2017.06.12-12.40.08:659][300]LogSavePackage: Save=182.36ms
+[2017.06.12-12.40.08:660][300]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/기말게임899B609043E0B4A3C17E8DBD99235A4E.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/메인/기말게임.uasset'
+[2017.06.12-12.40.08:722][300]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게�
