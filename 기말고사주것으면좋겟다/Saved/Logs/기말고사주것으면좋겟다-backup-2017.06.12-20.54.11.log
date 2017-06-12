@@ -1,0 +1,913 @@
+﻿Log file open, 06/12/17 18:25:01
+LogInit:Display: Running engine for game: 기말고사주것으면좋겟다
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1946045604) SRandInit(-1946045603).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.097067
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.12-09.25.01:333][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.12-09.25.01:333][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.12-09.25.01:436][  0]LogInit: Computer: HAROCK
+[2017.06.12-09.25.01:436][  0]LogInit: User: computer1
+[2017.06.12-09.25.01:436][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.06.12-09.25.01:436][  0]LogInit: High frequency timer resolution =3.222882 MHz
+[2017.06.12-09.25.01:436][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.06.12-09.25.01:437][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.12-09.25.01:437][  0]LogMemory: Process Physical Memory: 191.50 MB used, 191.50 MB peak
+[2017.06.12-09.25.01:437][  0]LogMemory: Process Virtual Memory: 195.17 MB used, 195.17 MB peak
+[2017.06.12-09.25.01:437][  0]LogMemory: Physical Memory: 5643.45 MB used, 16361.52 MB total
+[2017.06.12-09.25.01:437][  0]LogMemory: Virtual Memory: 554.57 MB used, 134217728.00 MB total
+[2017.06.12-09.25.01:508][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2017.06.12-09.25.01:569][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:KismetSchema, Key:Default):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.12/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (940523119) Localized String: (디폴트)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.12/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (940523119) Localized String: (기본)
+[2017.06.12-09.25.01:570][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.12/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.12/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
+[2017.06.12-09.25.01:570][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.12/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
+ )
+Localization Resource: (C:/Program Files/Epic Games/UE_4.12/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
+ )
+[2017.06.12-09.25.01:570][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.12/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.12/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
+[2017.06.12-09.25.01:781][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.12-09.25.02:431][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.06.12-09.25.02:431][  0]LogD3D11RHI:       4058/0/8180 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.12-09.25.02:435][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.12-09.25.02:435][  0]LogD3D11RHI:       0/0/8180 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.12-09.25.02:435][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.12-09.25.02:445][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.12-09.25.02:446][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.12-09.25.02:446][  0]LogWindows: EnumDisplayDevices:
+[2017.06.12-09.25.02:446][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.06.12-09.25.02:447][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.06.12-09.25.02:448][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.06.12-09.25.02:448][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.06.12-09.25.02:449][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.06.12-09.25.02:449][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.06.12-09.25.02:449][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.06.12-09.25.02:449][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.06.12-09.25.02:449][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.12-09.25.03:019][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.12-09.25.03:093][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.12-09.25.03:094][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Intermediate/Shaders/WorkingDirectory/11392/).
+[2017.06.12-09.25.03:095][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/COMPUT~1/AppData/Local/Temp/UnrealShaderWorkingDir/85EB3A2D4A9D9C82904A87A6280EA057/'.
+[2017.06.12-09.25.03:095][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.12-09.25.05:329][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.12-09.25.05:345][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.12-09.25.05:362][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.12-09.25.05:379][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.12-09.25.05:394][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.12-09.25.05:408][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.12-09.25.05:422][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.12-09.25.05:435][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.12-09.25.05:448][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.12-09.25.05:462][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.12-09.25.05:475][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.12-09.25.05:501][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.12-09.25.05:501][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.12-09.25.05:503][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.12-09.25.05:532][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.12-09.25.05:544][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.12-09.25.05:557][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.12-09.25.05:570][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.12-09.25.05:584][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.12-09.25.05:584][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.12-09.25.05:719][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.12-09.25.05:814][  0]LogDerivedDataCache: Loaded boot cache 0.09s 48MB C:/Users/computer-1/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.06.12-09.25.05:815][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/computer-1/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2017.06.12-09.25.05:815][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.12-09.25.05:815][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.12-09.25.05:815][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.12-09.25.05:815][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.12-09.25.05:845][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.12-09.25.05:858][  0]LogDerivedDataCache: Using Local data cache path C:/Users/computer-1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.12-09.25.06:195][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.12-09.25.06:197][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.12-09.25.06:534][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.06.12-09.25.06:534][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.12-09.25.06:534][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.06.12-09.25.06:920][  0]LogAssetRegistry: FAssetRegistry took 0.0213 seconds to start up
+[2017.06.12-09.25.08:253][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 1.327067 seconds
+[2017.06.12-09.25.08:262][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2017.06.12-09.25.08:262][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
+[2017.06.12-09.25.08:262][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.12-09.25.08:276][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.12-09.25.08:543][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.12-09.25.08:543][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.12-09.25.09:604][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.12-09.25.10:136][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.06.12-09.25.10:138][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.06.12-09.25.10:155][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.06.12-09.25.10:171][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.06.12-09.25.10:538][  0]LogEngine: Initializing Engine...
+[2017.06.12-09.25.10:540][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.06.12-09.25.10:541][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.06.12-09.25.10:723][  0]LogAIModule: Creating AISystem for world NewWorld
+[2017.06.12-09.25.10:747][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.12-09.25.10:790][  0]LogInit: FAudioDevice initialized.
+[2017.06.12-09.25.10:845][  0]LogDerivedDataCache: Saved boot cache 0.05s 48MB C:/Users/computer-1/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.06.12-09.25.10:859][  0]LogInit: Texture streaming: Enabled
+[2017.06.12-09.25.10:922][  0]LogInit: Transaction tracking system initialized
+[2017.06.12-09.25.10:959][  0]BlueprintLog: New page: 에디터 로드
+[2017.06.12-09.25.11:147][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2017.06.12-09.25.11:239][  0]LogConsoleResponse:Display: 
+[2017.06.12-09.25.11:391][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2017.06.12-09.25.11:392][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.12-09.25.11:570][  0]LogFileCache: Scanning file cache for directory 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/' took 0.02s
+[2017.06.12-09.25.11:580][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.06.12-09.25.11:580][  0]Cmd: MAP LOAD FILE="E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/Maps/BaseMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.12-09.25.11:680][  0]LightingResults: New page: 라이팅 빌드
+[2017.06.12-09.25.11:684][  0]MapCheck: New page: 맵 체크
+[2017.06.12-09.25.11:684][  0]LightingResults: New page: 라이팅 빌드
+[2017.06.12-09.25.12:435][  0]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.12-09.25.12:443][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.12-09.25.12:449][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.12-09.25.12:549][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 99.304ms.
+[2017.06.12-09.25.12:549][  0]LogFileHelpers: Loading map 'BaseMap' took 0.969
+[2017.06.12-09.25.12:733][  0]LogCollectionManager: Loaded 0 collections in 0.002320 seconds
+[2017.06.12-09.25.12:815][  0]LogFileCache: Scanning file cache for directory 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Collections/' took 0.01s
+[2017.06.12-09.25.12:815][  0]LogFileCache: Scanning file cache for directory 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/Developers/computer1/Collections/' took 0.01s
+[2017.06.12-09.25.12:815][  0]LogFileCache: Scanning file cache for directory 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/Collections/' took 0.01s
+[2017.06.12-09.25.12:815][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000034 seconds
+[2017.06.12-09.25.12:833][  0]LogContentBrowser: Native class hierarchy populated in 0.0139 seconds. Added 2047 classes and 369 folders.
+[2017.06.12-09.25.12:847][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.12-09.25.12:847][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.12-09.25.12:848][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0008 seconds. Added 12 classes and 0 folders.
+[2017.06.12-09.25.12:858][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.12-09.25.13:175][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.06.12-09.25.13:193][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.06.12-09.25.13:265][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.12-09.25.13:278][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2017.06.12-09.25.13:306][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.06.12-09.25.13:307][  0]LogLoad: Full Startup: 18.27 seconds (BP compile: 0.06 seconds)
+[2017.06.12-09.25.13:307][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.12-09.25.13:307][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.12-09.25.13:650][  0]LogOcInput: OculusInput pre-init called
+[2017.06.12-09.25.13:679][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.12-09.25.13:915][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2017.06.12-09.25.14:758][  3]LogAssetRegistry: Asset discovery search completed in 7.8599 seconds
+[2017.06.12-09.25.14:759][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.06.12-09.25.14:759][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000089 seconds (updated 0 objects)
+[2017.06.12-09.25.50:989][226]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.12-09.25.59:354][ 91]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.12-09.25.59:354][ 91]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 3:25:59)
+[2017.06.12-09.25.59:354][ 91]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.12-09.25.59:358][ 91]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003783s)
+[2017.06.12-09.25.59:359][ 91]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.12-09.25.59:360][ 91]LogPlayLevel: PIE: World Init took: (0.001383s)
+[2017.06.12-09.25.59:360][ 91]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.005426s)
+[2017.06.12-09.25.59:402][ 91]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.12-09.25.59:434][ 91]LogInit: FAudioDevice initialized.
+[2017.06.12-09.25.59:509][ 91]LogWorld: Game class is '게임모드_C'
+[2017.06.12-09.25.59:514][ 91]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-18.25.59
+[2017.06.12-09.25.59:517][ 91]LogWorld: Bringing up level for play took: 0.004128
+[2017.06.12-09.25.59:529][ 91]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.06.12-09.25.59:611][ 91]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: -0.05
+[2017.06.12-09.25.59:651][ 91]LogRenderer: Reallocating scene render targets to support 1292x756 (Frame:1016).
+[2017.06.12-09.29.10:603][496]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 111 classes and 0 folders.
+[2017.06.12-09.35.19:215][511]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/기말과제를끝내기위한폴더/Maps/BaseMap' took 0.044
+[2017.06.12-09.35.19:218][511]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/기말과제를끝내기위한폴더/메인/기말게임] ([1] browsable assets)...
+[2017.06.12-09.35.19:241][511]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임]
+[2017.06.12-09.35.19:241][511]OBJ SavePackage: Finished generating thumbnails for package [/Game/기말과제를끝내기위한폴더/메인/기말게임]
+[2017.06.12-09.35.19:241][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/기말과제를끝내기위한폴더/메인/기말게임" FILE="E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/기말게임_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.06.12-09.35.19:521][511]LogSavePackage: Save=176.67ms
+[2017.06.12-09.35.19:522][511]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/기말게임_Auto188BA2B8C44AC8242426544893CFDDE8E.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/기말게임_Auto1.uasset'
+[2017.06.12-09.35.19:581][511]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/기말게임_Auto1.uasset
+[2017.06.12-09.35.19:582][511]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/기말과제를끝내기위한폴더/메인/게임모드] ([1] browsable assets)...
+[2017.06.12-09.35.19:582][511]OBJ SavePackage: Finished generating thumbnails for package [/Game/기말과제를끝내기위한폴더/메인/게임모드]
+[2017.06.12-09.35.19:582][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/기말과제를끝내기위한폴더/메인/게임모드" FILE="E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/게임모드_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.06.12-09.35.19:680][511]LogSavePackage: Save=52.83ms
+[2017.06.12-09.35.19:680][511]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/게임모드_Auto118223C9C418E8582874771BF785146F0.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/게임모드_Auto1.uasset'
+[2017.06.12-09.35.19:693][511]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/게임모드_Auto1.uasset
+[2017.06.12-09.35.19:693][511]LogFileHelpers: Auto-saving content packages took 0.477
+[2017.06.12-10.19.38:435][154]LogEditorTransaction: Undo 시간 새로 입력됨
+[2017.06.12-10.20.28:342][513]LogSavePackage: Save=144.28ms
+[2017.06.12-10.20.28:342][513]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/BaseMap_Auto2EF5931684CE7C89B49E36DB8062FDA18.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/Maps/BaseMap_Auto2.umap'
+[2017.06.12-10.20.28:354][513]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/Maps/BaseMap_Auto2.umap
+[2017.06.12-10.20.28:377][513]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/기말과제를끝내기위한폴더/Maps/BaseMap' took 0.324
+[2017.06.12-10.20.28:377][513]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.324
+[2017.06.12-10.20.28:381][513]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/기말과제를끝내기위한폴더/메인/기말게임] ([1] browsable assets)...
+[2017.06.12-10.20.28:406][513]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임]
+[2017.06.12-10.20.28:406][513]OBJ SavePackage: Finished generating thumbnails for package [/Game/기말과제를끝내기위한폴더/메인/기말게임]
+[2017.06.12-10.20.28:406][513]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/기말과제를끝내기위한폴더/메인/기말게임" FILE="E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/기말게임_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2017.06.12-10.20.28:625][513]LogSavePackage: Save=157.05ms
+[2017.06.12-10.20.28:625][513]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/기말게임_Auto2C9AAD80743AE206F8F821092A7307055.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/기말게임_Auto2.uasset'
+[2017.06.12-10.20.28:643][513]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/기말게임_Auto2.uasset
+[2017.06.12-10.20.28:643][513]LogFileHelpers: Auto-saving content packages took 0.264
+[2017.06.12-10.20.54:421][577]LogEditorTransaction: Undo 보간 모드 선택
+[2017.06.12-10.24.02:585][726]BlueprintLog: New page: 기말게임 컴파일
+[2017.06.12-10.24.03:007][726]BlueprintEditorCompileResults: 정보 [3547.97] 기말게임 컴파일에 성공했습니다! [소요시간 420 ms] (/Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임)
+[2017.06.12-10.24.09:972][803]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.12-10.24.09:972][803]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 4:24:09)
+[2017.06.12-10.24.09:973][803]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.12-10.24.09:977][803]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003617s)
+[2017.06.12-10.24.09:978][803]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.12-10.24.09:978][803]LogPlayLevel: PIE: World Init took: (0.001225s)
+[2017.06.12-10.24.09:978][803]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.005122s)
+[2017.06.12-10.24.10:032][803]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.12-10.24.10:066][803]LogInit: FAudioDevice initialized.
+[2017.06.12-10.24.10:120][803]LogWorld: Game class is '게임모드_C'
+[2017.06.12-10.24.10:124][803]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-19.24.10
+[2017.06.12-10.24.10:124][803]LogWorld: Bringing up level for play took: 0.002117
+[2017.06.12-10.24.10:278][803]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 0.617
+[2017.06.12-10.24.17:604][238]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.12-10.24.17:604][238]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 4:24:17)
+[2017.06.12-10.24.17:604][238]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.12-10.24.17:608][238]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003542s)
+[2017.06.12-10.24.17:609][238]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.12-10.24.17:609][238]LogPlayLevel: PIE: World Init took: (0.001164s)
+[2017.06.12-10.24.17:609][238]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.005005s)
+[2017.06.12-10.24.17:658][238]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.12-10.24.17:696][238]LogInit: FAudioDevice initialized.
+[2017.06.12-10.24.17:752][238]LogWorld: Game class is '게임모드_C'
+[2017.06.12-10.24.17:755][238]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-19.24.17
+[2017.06.12-10.24.17:756][238]LogWorld: Bringing up level for play took: 0.002230
+[2017.06.12-10.24.17:921][238]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 0.26
+[2017.06.12-10.24.50:818][701]BlueprintLog: New page: 기말게임 컴파일
+[2017.06.12-10.24.50:977][701]BlueprintEditorCompileResults: 정보 [3595.94] 기말게임 컴파일에 성공했습니다! [소요시간 158 ms] (/Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임)
+[2017.06.12-10.24.51:686][743]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.12-10.24.51:686][743]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 4:24:51)
+[2017.06.12-10.24.51:686][743]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.12-10.24.51:689][743]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003161s)
+[2017.06.12-10.24.51:690][743]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.12-10.24.51:690][743]LogPlayLevel: PIE: World Init took: (0.001264s)
+[2017.06.12-10.24.51:691][743]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.004723s)
+[2017.06.12-10.24.51:739][743]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.12-10.24.51:771][743]LogInit: FAudioDevice initialized.
+[2017.06.12-10.24.51:835][743]LogWorld: Game class is '게임모드_C'
+[2017.06.12-10.24.51:838][743]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-19.24.51
+[2017.06.12-10.24.51:839][743]LogWorld: Bringing up level for play took: 0.002295
+[2017.06.12-10.24.51:982][743]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 0.321
+[2017.06.12-10.25.19:843][556]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2017.06.12-10.25.19:863][556]LogPlayLevel: [PlayLevel] Compiling 기말게임 before play...
+[2017.06.12-10.25.19:991][556]LogPlayLevel: PlayLevel: Blueprint regeneration took 147 ms (1 blueprints)
+[2017.06.12-10.25.20:024][556]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 4:25:20)
+[2017.06.12-10.25.20:024][556]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.12-10.25.20:028][556]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003162s)
+[2017.06.12-10.25.20:029][556]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.12-10.25.20:029][556]LogPlayLevel: PIE: World Init took: (0.001166s)
+[2017.06.12-10.25.20:029][556]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.004756s)
+[2017.06.12-10.25.20:076][556]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.12-10.25.20:108][556]LogInit: FAudioDevice initialized.
+[2017.06.12-10.25.20:166][556]LogWorld: Game class is '게임모드_C'
+[2017.06.12-10.25.20:169][556]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-19.25.20
+[2017.06.12-10.25.20:170][556]LogWorld: Bringing up level for play took: 0.002185
+[2017.06.12-10.25.20:287][556]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 0.627
+[2017.06.12-10.25.30:408][986]LogRenderer: Reallocating scene render targets to support 1920x1016 (Frame:3043).
+[2017.06.12-10.25.37:643][364]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.12-10.25.37:644][364]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 4:25:37)
+[2017.06.12-10.25.37:644][364]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.12-10.25.37:648][364]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003893s)
+[2017.06.12-10.25.37:649][364]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.12-10.25.37:649][364]LogPlayLevel: PIE: World Init took: (0.001369s)
+[2017.06.12-10.25.37:649][364]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.005600s)
+[2017.06.12-10.25.37:696][364]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.12-10.25.37:731][364]LogInit: FAudioDevice initialized.
+[2017.06.12-10.25.37:792][364]LogWorld: Game class is '게임모드_C'
+[2017.06.12-10.25.37:797][364]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-19.25.37
+[2017.06.12-10.25.37:797][364]LogWorld: Bringing up level for play took: 0.002757
+[2017.06.12-10.25.37:945][364]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 0.284
+[2017.06.12-10.28.09:162][ 63]BlueprintLog: New page: 기말게임 컴파일
+[2017.06.12-10.28.09:324][ 63]BlueprintEditorCompileResults: 정보 [3794.29] 기말게임 컴파일에 성공했습니다! [소요시간 161 ms] (/Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임)
+[2017.06.12-10.28.12:806][272]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.12-10.28.12:806][272]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 4:28:12)
+[2017.06.12-10.28.12:806][272]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.12-10.28.12:810][272]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003611s)
+[2017.06.12-10.28.12:811][272]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.12-10.28.12:811][272]LogPlayLevel: PIE: World Init took: (0.001380s)
+[2017.06.12-10.28.12:812][272]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.005277s)
+[2017.06.12-10.28.12:859][272]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.12-10.28.12:894][272]LogInit: FAudioDevice initialized.
+[2017.06.12-10.28.12:952][272]LogWorld: Game class is '게임모드_C'
+[2017.06.12-10.28.12:957][272]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-19.28.12
+[2017.06.12-10.28.12:957][272]LogWorld: Bringing up level for play took: 0.003201
+[2017.06.12-10.28.13:136][272]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: -0.525
+[2017.06.12-10.31.09:139][453]LogSavePackage: Save=155.32ms
+[2017.06.12-10.31.09:139][453]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/BaseMap_Auto3FE964F60471C1D922838BDA9FD66033B.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/Maps/BaseMap_Auto3.umap'
+[2017.06.12-10.31.09:207][453]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/Maps/BaseMap_Auto3.umap
+[2017.06.12-10.31.09:250][453]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/기말과제를끝내기위한폴더/Maps/BaseMap' took 0.419
+[2017.06.12-10.31.09:250][453]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.419
+[2017.06.12-10.31.09:258][453]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/기말과제를끝내기위한폴더/메인/기말게임] ([1] browsable assets)...
+[2017.06.12-10.31.09:281][453]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임]
+[2017.06.12-10.31.09:282][453]OBJ SavePackage: Finished generating thumbnails for package [/Game/기말과제를끝내기위한폴더/메인/기말게임]
+[2017.06.12-10.31.09:282][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/기말과제를끝내기위한폴더/메인/기말게임" FILE="E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/기말게임_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2017.06.12-10.31.09:585][453]LogSavePackage: Save=177.89ms
+[2017.06.12-10.31.09:585][453]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/기말게임_Auto39EED0747416DF0010167C8B2974FA641.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/기말게임_Auto3.uasset'
+[2017.06.12-10.31.09:653][453]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/기말게임_Auto3.uasset
+[2017.06.12-10.31.09:653][453]LogFileHelpers: Auto-saving content packages took 0.399
+[2017.06.12-10.32.54:178][733]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.12-10.32.54:178][733]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 4:32:54)
+[2017.06.12-10.32.54:178][733]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.12-10.32.54:182][733]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003496s)
+[2017.06.12-10.32.54:183][733]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.12-10.32.54:183][733]LogPlayLevel: PIE: World Init took: (0.001379s)
+[2017.06.12-10.32.54:183][733]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.005167s)
+[2017.06.12-10.32.54:227][733]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.12-10.32.54:266][733]LogInit: FAudioDevice initialized.
+[2017.06.12-10.32.54:329][733]LogWorld: Game class is '게임모드_C'
+[2017.06.12-10.32.54:333][733]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-19.32.54
+[2017.06.12-10.32.54:333][733]LogWorld: Bringing up level for play took: 0.002752
+[2017.06.12-10.32.54:485][733]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 0.824
+[2017.06.12-10.35.20:375][835]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.12-10.35.20:375][835]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 4:35:20)
+[2017.06.12-10.35.20:375][835]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.12-10.35.20:378][835]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003287s)
+[2017.06.12-10.35.20:380][835]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.12-10.35.20:380][835]LogPlayLevel: PIE: World Init took: (0.001434s)
+[2017.06.12-10.35.20:380][835]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.005155s)
+[2017.06.12-10.35.20:431][835]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.12-10.35.20:465][835]LogInit: FAudioDevice initialized.
+[2017.06.12-10.35.20:527][835]LogWorld: Game class is '게임모드_C'
+[2017.06.12-10.35.20:530][835]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-19.35.20
+[2017.06.12-10.35.20:531][835]LogWorld: Bringing up level for play took: 0.002418
+[2017.06.12-10.35.20:676][835]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 1.016
+[2017.06.12-10.35.33:818][614]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.12-10.35.33:819][614]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 4:35:33)
+[2017.06.12-10.35.33:819][614]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.12-10.35.33:822][614]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003442s)
+[2017.06.12-10.35.33:823][614]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.12-10.35.33:823][614]LogPlayLevel: PIE: World Init took: (0.000971s)
+[2017.06.12-10.35.33:823][614]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.004653s)
+[2017.06.12-10.35.33:874][614]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.12-10.35.33:905][614]LogInit: FAudioDevice initialized.
+[2017.06.12-10.35.33:964][614]LogWorld: Game class is '게임모드_C'
+[2017.06.12-10.35.33:967][614]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-19.35.33
+[2017.06.12-10.35.33:968][614]LogWorld: Bringing up level for play took: 0.002159
+[2017.06.12-10.35.34:102][614]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 0.442
+[2017.06.12-10.36.19:867][567]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.12-10.36.19:867][567]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 4:36:19)
+[2017.06.12-10.36.19:867][567]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.12-10.36.19:871][567]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003809s)
+[2017.06.12-10.36.19:872][567]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.12-10.36.19:873][567]LogPlayLevel: PIE: World Init took: (0.001415s)
+[2017.06.12-10.36.19:873][567]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.005524s)
+[2017.06.12-10.36.19:924][567]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.12-10.36.19:952][567]LogInit: FAudioDevice initialized.
+[2017.06.12-10.36.20:010][567]LogWorld: Game class is '게임모드_C'
+[2017.06.12-10.36.20:013][567]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-19.36.20
+[2017.06.12-10.36.20:014][567]LogWorld: Bringing up level for play took: 0.002089
+[2017.06.12-10.36.20:149][567]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 0.488
+[2017.06.12-10.41.48:512][284]LogSavePackage: Save=134.38ms
+[2017.06.12-10.41.48:512][284]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/BaseMap_Auto49EED5A9E4728ABD4225119B3D3BFEB2C.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/Maps/BaseMap_Auto4.umap'
+[2017.06.12-10.41.48:579][284]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/Maps/BaseMap_Auto4.umap
+[2017.06.12-10.41.48:612][284]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/기말과제를끝내기위한폴더/Maps/BaseMap' took 0.369
+[2017.06.12-10.41.48:613][284]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.369
+[2017.06.12-10.41.48:616][284]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/기말과제를끝내기위한폴더/메인/기말게임] ([1] browsable assets)...
+[2017.06.12-10.41.48:637][284]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임]
+[2017.06.12-10.41.48:637][284]OBJ SavePackage: Finished generating thumbnails for package [/Game/기말과제를끝내기위한폴더/메인/기말게임]
+[2017.06.12-10.41.48:637][284]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/기말과제를끝내기위한폴더/메인/기말게임" FILE="E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/기말게임_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2017.06.12-10.41.48:930][284]LogSavePackage: Save=189.12ms
+[2017.06.12-10.41.48:930][284]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/기말게임_Auto414E06D3141ECEA41827A6690F52A5942.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/기말게임_Auto4.uasset'
+[2017.06.12-10.41.48:945][284]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/기말게임_Auto4.uasset
+[2017.06.12-10.41.48:945][284]LogFileHelpers: Auto-saving content packages took 0.331
+[2017.06.12-10.42.29:912][638]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2017.06.12-10.42.29:932][638]LogPlayLevel: [PlayLevel] Compiling 기말게임 before play...
+[2017.06.12-10.42.30:061][638]LogPlayLevel: PlayLevel: Blueprint regeneration took 148 ms (1 blueprints)
+[2017.06.12-10.42.30:098][638]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 4:42:30)
+[2017.06.12-10.42.30:098][638]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.12-10.42.30:101][638]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003130s)
+[2017.06.12-10.42.30:102][638]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.12-10.42.30:102][638]LogPlayLevel: PIE: World Init took: (0.001176s)
+[2017.06.12-10.42.30:102][638]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.004566s)
+[2017.06.12-10.42.30:151][638]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.12-10.42.30:182][638]LogInit: FAudioDevice initialized.
+[2017.06.12-10.42.30:237][638]LogWorld: Game class is '게임모드_C'
+[2017.06.12-10.42.30:241][638]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-19.42.30
+[2017.06.12-10.42.30:241][638]LogWorld: Bringing up level for play took: 0.002168
+[2017.06.12-10.42.30:380][638]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 0.719
+[2017.06.12-10.47.10:900][  0]LogEditorViewport: Clicking on Actor (LMB): 기말게임_C (기말게임)
+[2017.06.12-10.47.28:830][687]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.12-10.47.30:322][844]Cmd: UpdateLandscapeSetup
+[2017.06.12-10.47.58:748][315]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.12-10.47.58:748][315]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 4:47:58)
+[2017.06.12-10.47.58:748][315]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.12-10.47.58:752][315]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003755s)
+[2017.06.12-10.47.58:754][315]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.12-10.47.58:754][315]LogPlayLevel: PIE: World Init took: (0.001700s)
+[2017.06.12-10.47.58:754][315]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.005724s)
+[2017.06.12-10.47.58:830][315]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.12-10.47.58:863][315]LogInit: FAudioDevice initialized.
+[2017.06.12-10.47.58:924][315]LogWorld: Game class is '게임모드_C'
+[2017.06.12-10.47.58:928][315]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-19.47.58
+[2017.06.12-10.47.58:928][315]LogWorld: Bringing up level for play took: 0.002245
+[2017.06.12-10.47.59:092][315]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: -0.569
+[2017.06.12-10.48.16:020][116]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.12-10.48.16:020][116]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 4:48:16)
+[2017.06.12-10.48.16:020][116]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.12-10.48.16:023][116]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003163s)
+[2017.06.12-10.48.16:025][116]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.12-10.48.16:025][116]LogPlayLevel: PIE: World Init took: (0.001348s)
+[2017.06.12-10.48.16:025][116]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.004808s)
+[2017.06.12-10.48.16:103][116]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.12-10.48.16:140][116]LogInit: FAudioDevice initialized.
+[2017.06.12-10.48.16:195][116]LogWorld: Game class is '게임모드_C'
+[2017.06.12-10.48.16:199][116]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-19.48.16
+[2017.06.12-10.48.16:199][116]LogWorld: Bringing up level for play took: 0.002725
+[2017.06.12-10.48.16:338][116]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 0.677
+[2017.06.12-10.48.30:570][925]BlueprintLog: New page: 기말게임 컴파일
+[2017.06.12-10.48.31:039][925]BlueprintEditorCompileResults: 정보 [5016.00] 기말게임 컴파일에 성공했습니다! [소요시간 468 ms] (/Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임)
+[2017.06.12-10.48.32:269][953]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.12-10.48.32:269][953]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 4:48:32)
+[2017.06.12-10.48.32:269][953]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.12-10.48.32:277][953]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008022s)
+[2017.06.12-10.48.32:279][953]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.12-10.48.32:280][953]LogPlayLevel: PIE: World Init took: (0.002373s)
+[2017.06.12-10.48.32:280][953]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.011047s)
+[2017.06.12-10.48.32:447][953]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.12-10.48.32:544][953]LogInit: FAudioDevice initialized.
+[2017.06.12-10.48.32:665][953]LogWorld: Game class is '게임모드_C'
+[2017.06.12-10.48.32:674][953]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-19.48.32
+[2017.06.12-10.48.32:675][953]LogWorld: Bringing up level for play took: 0.006090
+[2017.06.12-10.48.33:115][953]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 1.454
+[2017.06.12-10.50.39:332][228]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2017.06.12-10.50.39:355][228]LogPlayLevel: [PlayLevel] Compiling 기말게임 before play...
+[2017.06.12-10.50.39:515][228]LogPlayLevel: PlayLevel: Blueprint regeneration took 182 ms (1 blueprints)
+[2017.06.12-10.50.39:548][228]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 4:50:39)
+[2017.06.12-10.50.39:548][228]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.12-10.50.39:551][228]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003469s)
+[2017.06.12-10.50.39:553][228]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.12-10.50.39:553][228]LogPlayLevel: PIE: World Init took: (0.001913s)
+[2017.06.12-10.50.39:554][228]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.005912s)
+[2017.06.12-10.50.39:628][228]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.12-10.50.39:658][228]LogInit: FAudioDevice initialized.
+[2017.06.12-10.50.39:721][228]LogWorld: Game class is '게임모드_C'
+[2017.06.12-10.50.39:725][228]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-19.50.39
+[2017.06.12-10.50.39:725][228]LogWorld: Bringing up level for play took: 0.002257
+[2017.06.12-10.50.39:850][228]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 0.19
+[2017.06.12-10.50.50:385][867]BlueprintLog: New page: 기말게임 컴파일
+[2017.06.12-10.50.50:591][867]BlueprintEditorCompileResults: 정보 [5155.55] 기말게임 컴파일에 성공했습니다! [소요시간 205 ms] (/Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임)
+[2017.06.12-10.50.51:519][922]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.12-10.50.51:519][922]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 4:50:51)
+[2017.06.12-10.50.51:519][922]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.12-10.50.51:522][922]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003031s)
+[2017.06.12-10.50.51:523][922]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.12-10.50.51:523][922]LogPlayLevel: PIE: World Init took: (0.001103s)
+[2017.06.12-10.50.51:523][922]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.004352s)
+[2017.06.12-10.50.51:608][922]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.12-10.50.51:650][922]LogInit: FAudioDevice initialized.
+[2017.06.12-10.50.51:710][922]LogWorld: Game class is '게임모드_C'
+[2017.06.12-10.50.51:714][922]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-19.50.51
+[2017.06.12-10.50.51:714][922]LogWorld: Bringing up level for play took: 0.002560
+[2017.06.12-10.50.51:863][922]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 0.202
+[2017.06.12-10.50.59:088][357]BlueprintLog: New page: 기말게임 컴파일
+[2017.06.12-10.50.59:280][357]BlueprintEditorCompileResults: 정보 [5164.24] 기말게임 컴파일에 성공했습니다! [소요시간 190 ms] (/Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임)
+[2017.06.12-10.51.00:066][400]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.12-10.51.00:066][400]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 4:51:00)
+[2017.06.12-10.51.00:066][400]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.12-10.51.00:069][400]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003401s)
+[2017.06.12-10.51.00:070][400]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.12-10.51.00:070][400]LogPlayLevel: PIE: World Init took: (0.000896s)
+[2017.06.12-10.51.00:070][400]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.004526s)
+[2017.06.12-10.51.00:152][400]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.12-10.51.00:179][400]LogInit: FAudioDevice initialized.
+[2017.06.12-10.51.00:242][400]LogWorld: Game class is '게임모드_C'
+[2017.06.12-10.51.00:246][400]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-19.51.00
+[2017.06.12-10.51.00:246][400]LogWorld: Bringing up level for play took: 0.002314
+[2017.06.12-10.51.00:411][400]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 0.75
+[2017.06.12-10.51.06:482][681]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2017.06.12-10.51.06:526][681]LogPlayLevel: [PlayLevel] Compiling 기말게임 before play...
+[2017.06.12-10.51.06:919][681]LogPlayLevel: PlayLevel: Blueprint regeneration took 436 ms (1 blueprints)
+[2017.06.12-10.51.07:004][681]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 4:51:07)
+[2017.06.12-10.51.07:004][681]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.12-10.51.07:013][681]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008656s)
+[2017.06.12-10.51.07:015][681]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.12-10.51.07:015][681]LogPlayLevel: PIE: World Init took: (0.001931s)
+[2017.06.12-10.51.07:015][681]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.011121s)
+[2017.06.12-10.51.07:166][681]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.12-10.51.07:254][681]LogInit: FAudioDevice initialized.
+[2017.06.12-10.51.07:366][681]LogWorld: Game class is '게임모드_C'
+[2017.06.12-10.51.07:375][681]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-19.51.07
+[2017.06.12-10.51.07:376][681]LogWorld: Bringing up level for play took: 0.005594
+[2017.06.12-10.51.07:739][681]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 2.078
+[2017.06.12-10.52.18:081][164]LogSavePackage: Save=155.34ms
+[2017.06.12-10.52.18:081][164]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/BaseMap_Auto5625752A74643B6B63FB1CC86F1147FD7.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/Maps/BaseMap_Auto5.umap'
+[2017.06.12-10.52.18:104][164]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/Maps/BaseMap_Auto5.umap
+[2017.06.12-10.52.18:138][164]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/기말과제를끝내기위한폴더/Maps/BaseMap' took 0.351
+[2017.06.12-10.52.18:138][164]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.351
+[2017.06.12-10.52.18:142][164]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/기말과제를끝내기위한폴더/메인/기말게임] ([1] browsable assets)...
+[2017.06.12-10.52.18:166][164]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임]
+[2017.06.12-10.52.18:166][164]OBJ SavePackage: Finished generating thumbnails for package [/Game/기말과제를끝내기위한폴더/메인/기말게임]
+[2017.06.12-10.52.18:166][164]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/기말과제를끝내기위한폴더/메인/기말게임" FILE="E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/기말게임_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2017.06.12-10.52.18:410][164]LogSavePackage: Save=177.83ms
+[2017.06.12-10.52.18:410][164]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/기말게임_Auto552B38F0545EBAABDA503A19DECBFDFA3.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/기말게임_Auto5.uasset'
+[2017.06.12-10.52.18:451][164]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/기말게임_Auto5.uasset
+[2017.06.12-10.52.18:451][164]LogFileHelpers: Auto-saving content packages took 0.311
+[2017.06.12-10.54.14:215][696]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.12-10.54.49:762][839]Cmd: UpdateLandscapeSetup
+[2017.06.12-10.54.51:470][ 19]Cmd: UpdateLandscapeSetup
+[2017.06.12-10.55.10:312][379]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.12-10.55.10:312][379]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 4:55:10)
+[2017.06.12-10.55.10:312][379]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.12-10.55.10:316][379]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003120s)
+[2017.06.12-10.55.10:317][379]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.12-10.55.10:317][379]LogPlayLevel: PIE: World Init took: (0.001453s)
+[2017.06.12-10.55.10:317][379]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.004931s)
+[2017.06.12-10.55.10:393][379]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.12-10.55.10:424][379]LogInit: FAudioDevice initialized.
+[2017.06.12-10.55.10:486][379]LogWorld: Game class is '게임모드_C'
+[2017.06.12-10.55.10:489][379]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-19.55.10
+[2017.06.12-10.55.10:490][379]LogWorld: Bringing up level for play took: 0.002109
+[2017.06.12-10.55.10:667][379]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 1.006
+[2017.06.12-11.02.23:093][158]LogSavePackage: Save=266.56ms
+[2017.06.12-11.02.23:093][158]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/BaseMap_Auto625E915204F89512048E40CB5880EC5D1.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/Maps/BaseMap_Auto6.umap'
+[2017.06.12-11.02.23:134][158]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/Maps/BaseMap_Auto6.umap
+[2017.06.12-11.02.23:161][158]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/기말과제를끝내기위한폴더/Maps/BaseMap' took 0.472
+[2017.06.12-11.02.23:162][158]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.472
+[2017.06.12-11.20.51:505][ 48]BlueprintLog: New page: 기말게임 컴파일
+[2017.06.12-11.20.51:693][ 48]BlueprintEditorCompileResults: 정보 [6956.66] 기말게임 컴파일에 성공했습니다! [소요시간 187 ms] (/Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임)
+[2017.06.12-11.20.52:733][111]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.12-11.20.52:733][111]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 5:20:52)
+[2017.06.12-11.20.52:733][111]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.12-11.20.52:737][111]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003487s)
+[2017.06.12-11.20.52:738][111]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.12-11.20.52:738][111]LogPlayLevel: PIE: World Init took: (0.001176s)
+[2017.06.12-11.20.52:738][111]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.004953s)
+[2017.06.12-11.20.52:813][111]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.12-11.20.52:847][111]LogInit: FAudioDevice initialized.
+[2017.06.12-11.20.52:908][111]LogWorld: Game class is '게임모드_C'
+[2017.06.12-11.20.52:912][111]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-20.20.52
+[2017.06.12-11.20.52:912][111]LogWorld: Bringing up level for play took: 0.002266
+[2017.06.12-11.20.53:070][111]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: -0.59
+[2017.06.12-11.22.14:604][ 63]BlueprintLog: New page: 기말게임 컴파일
+[2017.06.12-11.22.14:814][ 63]BlueprintEditorCompileResults: 정보 [7039.78] 기말게임 컴파일에 성공했습니다! [소요시간 209 ms] (/Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임)
+[2017.06.12-11.22.16:071][134]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.12-11.22.16:071][134]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 5:22:16)
+[2017.06.12-11.22.16:071][134]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.12-11.22.16:074][134]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003396s)
+[2017.06.12-11.22.16:075][134]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.12-11.22.16:075][134]LogPlayLevel: PIE: World Init took: (0.001056s)
+[2017.06.12-11.22.16:076][134]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.004680s)
+[2017.06.12-11.22.16:146][134]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.12-11.22.16:180][134]LogInit: FAudioDevice initialized.
+[2017.06.12-11.22.16:246][134]LogWorld: Game class is '게임모드_C'
+[2017.06.12-11.22.16:250][134]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-20.22.16
+[2017.06.12-11.22.16:251][134]LogWorld: Bringing up level for play took: 0.002592
+[2017.06.12-11.22.16:430][134]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 0.769
+[2017.06.12-11.22.47:405][558]LogSavePackage: Save=144.40ms
+[2017.06.12-11.22.47:405][558]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/BaseMap_Auto7556A8AB44EC20D8F9DAE8EBE53671AFC.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/Maps/BaseMap_Auto7.umap'
+[2017.06.12-11.22.47:417][558]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/Maps/BaseMap_Auto7.umap
+[2017.06.12-11.22.47:440][558]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/기말과제를끝내기위한폴더/Maps/BaseMap' took 0.319
+[2017.06.12-11.22.47:440][558]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.319
+[2017.06.12-11.22.47:442][558]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/기말과제를끝내기위한폴더/메인/기말게임] ([1] browsable assets)...
+[2017.06.12-11.22.47:476][558]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임]
+[2017.06.12-11.22.47:476][558]OBJ SavePackage: Finished generating thumbnails for package [/Game/기말과제를끝내기위한폴더/메인/기말게임]
+[2017.06.12-11.22.47:476][558]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/기말과제를끝내기위한폴더/메인/기말게임" FILE="E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/기말게임_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2017.06.12-11.22.47:729][558]LogSavePackage: Save=182.50ms
+[2017.06.12-11.22.47:729][558]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/기말게임_Auto7519D405F41F76C77C27E97A1368ECE9A.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/기말게임_Auto7.uasset'
+[2017.06.12-11.22.47:750][558]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/기말게임_Auto7.uasset
+[2017.06.12-11.22.47:750][558]LogFileHelpers: Auto-saving content packages took 0.309
+[2017.06.12-11.24.35:589][337]BlueprintLog: New page: 기말게임 컴파일
+[2017.06.12-11.24.35:804][337]BlueprintEditorCompileResults: 정보 [7180.77] 기말게임 컴파일에 성공했습니다! [소요시간 215 ms] (/Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임)
+[2017.06.12-11.24.36:936][393]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.12-11.24.36:936][393]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 5:24:36)
+[2017.06.12-11.24.36:936][393]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.12-11.24.36:939][393]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003602s)
+[2017.06.12-11.24.36:941][393]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.12-11.24.36:941][393]LogPlayLevel: PIE: World Init took: (0.001125s)
+[2017.06.12-11.24.36:941][393]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.005067s)
+[2017.06.12-11.24.37:020][393]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.12-11.24.37:053][393]LogInit: FAudioDevice initialized.
+[2017.06.12-11.24.37:115][393]LogWorld: Game class is '게임모드_C'
+[2017.06.12-11.24.37:119][393]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-20.24.37
+[2017.06.12-11.24.37:120][393]LogWorld: Bringing up level for play took: 0.002711
+[2017.06.12-11.24.37:274][393]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: -0.387
+[2017.06.12-11.24.42:304][653]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.12-11.24.42:304][653]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 5:24:42)
+[2017.06.12-11.24.42:304][653]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.12-11.24.42:307][653]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003146s)
+[2017.06.12-11.24.42:308][653]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.12-11.24.42:308][653]LogPlayLevel: PIE: World Init took: (0.001098s)
+[2017.06.12-11.24.42:308][653]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.004534s)
+[2017.06.12-11.24.42:382][653]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.12-11.24.42:416][653]LogInit: FAudioDevice initialized.
+[2017.06.12-11.24.42:474][653]LogWorld: Game class is '게임모드_C'
+[2017.06.12-11.24.42:478][653]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-20.24.42
+[2017.06.12-11.24.42:478][653]LogWorld: Bringing up level for play took: 0.002842
+[2017.06.12-11.24.42:629][653]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 0.968
+[2017.06.12-11.25.57:164][291]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.12-11.27.21:928][860]LogEditorViewport: Clicking on Actor (LMB): 기말게임_C (기말게임)
+[2017.06.12-11.33.02:571][672]LogSavePackage: Save=155.48ms
+[2017.06.12-11.33.02:571][672]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/BaseMap_Auto831EFAE3B46D85FBF64BFCE8C4377177C.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/Maps/BaseMap_Auto8.umap'
+[2017.06.12-11.33.02:582][672]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/Maps/BaseMap_Auto8.umap
+[2017.06.12-11.33.02:616][672]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/기말과제를끝내기위한폴더/Maps/BaseMap' took 0.344
+[2017.06.12-11.33.02:616][672]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.344
+[2017.06.12-11.33.02:620][672]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/기말과제를끝내기위한폴더/메인/기말게임] ([1] browsable assets)...
+[2017.06.12-11.33.02:643][672]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임]
+[2017.06.12-11.33.02:643][672]OBJ SavePackage: Finished generating thumbnails for package [/Game/기말과제를끝내기위한폴더/메인/기말게임]
+[2017.06.12-11.33.02:643][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/기말과제를끝내기위한폴더/메인/기말게임" FILE="E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/기말게임_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2017.06.12-11.33.02:930][672]LogSavePackage: Save=191.90ms
+[2017.06.12-11.33.02:930][672]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/기말게임_Auto8E7FE12AF40D5896893DB99A401CB75BF.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/기말게임_Auto8.uasset'
+[2017.06.12-11.33.02:949][672]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/기말게임_Auto8.uasset
+[2017.06.12-11.33.02:949][672]LogFileHelpers: Auto-saving content packages took 0.331
+[2017.06.12-11.43.56:527][350]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.12-11.43.56:527][350]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 5:43:56)
+[2017.06.12-11.43.56:527][350]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.12-11.43.56:531][350]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003595s)
+[2017.06.12-11.43.56:532][350]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.12-11.43.56:532][350]LogPlayLevel: PIE: World Init took: (0.001025s)
+[2017.06.12-11.43.56:532][350]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.004871s)
+[2017.06.12-11.43.56:607][350]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.12-11.43.56:640][350]LogInit: FAudioDevice initialized.
+[2017.06.12-11.43.56:690][350]LogWorld: Game class is '게임모드_C'
+[2017.06.12-11.43.56:694][350]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-20.43.56
+[2017.06.12-11.43.56:694][350]LogWorld: Bringing up level for play took: 0.002524
+[2017.06.12-11.43.56:775][350]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 1.114
+[2017.06.12-11.44.25:538][856]LogSavePackage: Save=155.44ms
+[2017.06.12-11.44.25:538][856]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/BaseMap_Auto969EEA3E741D9C5068695F1A293BF2103.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/Maps/BaseMap_Auto9.umap'
+[2017.06.12-11.44.25:562][856]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/Maps/BaseMap_Auto9.umap
+[2017.06.12-11.44.25:595][856]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/기말과제를끝내기위한폴더/Maps/BaseMap' took 0.355
+[2017.06.12-11.44.25:595][856]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.355
+[2017.06.12-11.48.27:767][450]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2017.06.12-11.50.57:425][588]LogEditorTransaction: Undo 핀 링크 생성
+[2017.06.12-11.50.58:393][638]LogEditorTransaction: Undo 핀 링크 생성
+[2017.06.12-11.50.58:991][673]LogEditorTransaction: Undo 핀 링크 생성
+[2017.06.12-11.50.59:744][718]LogEditorTransaction: Undo 핀 링크 생성
+[2017.06.12-11.51.00:192][744]LogEditorTransaction: Undo 컴포넌트 노드 추가
+[2017.06.12-11.51.01:810][836]LogEditorTransaction: Undo 노드 이동
+[2017.06.12-11.51.02:136][846]LogEditorTransaction: Undo 노드 추가
+[2017.06.12-11.51.02:894][890]LogEditorTransaction: Undo 노드 이동
+[2017.06.12-11.51.03:445][917]LogEditorTransaction: Undo 핀 링크 생성
+[2017.06.12-11.51.04:131][968]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2017.06.12-11.51.04:841][  9]LogEditorTransaction: Undo 현 선택을 삭제합니다.
+[2017.06.12-11.53.27:084][603]LogSavePackage: Save=119.33ms
+[2017.06.12-11.53.27:085][603]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/BaseMap8EB199374D48A03662D34BAC88F6FEFA.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/Maps/BaseMap.umap'
+[2017.06.12-11.53.27:175][603]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/Maps/BaseMap.umap
+[2017.06.12-11.53.27:326][603]LogFileHelpers: Saving map 'BaseMap' took 0.647
+[2017.06.12-11.53.27:329][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/기말과제를끝내기위한폴더/메인/게임모드" FILE="E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/메인/게임모드.uasset" SILENT=true
+[2017.06.12-11.53.27:427][603]LogSavePackage: Save=53.19ms
+[2017.06.12-11.53.27:427][603]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/게임모드8405F8734170B6441EABB5A118928A48.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/메인/게임모드.uasset'
+[2017.06.12-11.53.27:504][603]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/메인/게임모드.uasset
+[2017.06.12-11.53.27:530][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/기말과제를끝내기위한폴더/메인/기말게임" FILE="E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/메인/기말게임.uasset" SILENT=true
+[2017.06.12-11.53.27:828][603]LogSavePackage: Save=200.08ms
+[2017.06.12-11.53.27:828][603]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/기말게임7E1FFBC9480C772D990D238612EC9061.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/메인/기말게임.uasset'
+[2017.06.12-11.53.27:927][603]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/메인/기말게임.uasset
+[2017.06.12-11.53.28:441][603]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.06.12-11.53.28:445][603]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.06.12-11.53.28:812][604]Cmd: QUIT_EDITOR
+[2017.06.12-11.53.29:143][604]LogExit: Preparing to exit.
+[2017.06.12-11.53.30:060][604]LogExit: Editor shut down
+[2017.06.12-11.53.30:062][604]LogExit: Transaction tracking system shut down
+[2017.06.12-11.53.30:405][604]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.12-11.53.30:406][604]LogExit: Object subsystem successfully closed.
+[2017.06.12-11.53.30:436][604]LogD3D11RHI: Shutdown
+[2017.06.12-11.53.30:437][604]LogD3D11RHI: CleanupD3DDevice
+[2017.06.12-11.53.30:570][604]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.12-11.53.30:609][604]LogModuleManager: Shutting down and abandoning module BlueprintGraph (216)
+[2017.06.12-11.53.30:609][604]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (215)
+[2017.06.12-11.53.30:609][604]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (214)
+[2017.06.12-11.53.30:609][604]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2017.06.12-11.53.30:609][604]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2017.06.12-11.53.30:609][604]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2017.06.12-11.53.30:609][604]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2017.06.12-11.53.30:609][604]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2017.06.12-11.53.30:621][604]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2017.06.12-11.53.30:621][604]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2017.06.12-11.53.30:621][604]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2017.06.12-11.53.30:622][604]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2017.06.12-11.53.30:622][604]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2017.06.12-11.53.30:622][604]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2017.06.12-11.53.30:623][604]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2017.06.12-11.53.30:623][604]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2017.06.12-11.53.30:623][604]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2017.06.12-11.53.30:623][604]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2017.06.12-11.53.30:623][604]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2017.06.12-11.53.30:623][604]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2017.06.12-11.53.30:623][604]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2017.06.12-11.53.30:623][604]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2017.06.12-11.53.30:623][604]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2017.06.12-11.53.30:623][604]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2017.06.12-11.53.30:623][604]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2017.06.12-11.53.30:623][604]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2017.06.12-11.53.30:623][604]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2017.06.12-11.53.30:623][604]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2017.06.12-11.53.30:623][604]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2017.06.12-11.53.30:623][604]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2017.06.12-11.53.30:623][604]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2017.06.12-11.53.30:624][604]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2017.06.12-11.53.30:624][604]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2017.06.12-11.53.30:624][604]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2017.06.12-11.53.30:624][604]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2017.06.12-11.53.30:624][604]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2017.06.12-11.53.30:624][604]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2017.06.12-11.53.31:047][604]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2017.06.12-11.53.31:047][604]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2017.06.12-11.53.31:047][604]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2017.06.12-11.53.31:047][604]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2017.06.12-11.53.31:047][604]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2017.06.12-11.53.31:047][604]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2017.06.12-11.53.31:047][604]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2017.06.12-11.53.31:047][604]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2017.06.12-11.53.31:048][604]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2017.06.12-11.53.31:048][604]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2017.06.12-11.53.31:048][604]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2017.06.12-11.53.31:048][604]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2017.06.12-11.53.31:048][604]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2017.06.12-11.53.31:048][604]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2017.06.12-11.53.31:048][604]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2017.06.12-11.53.31:048][604]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2017.06.12-11.53.31:048][604]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2017.06.12-11.53.31:048][604]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2017.06.12-11.53.31:049][604]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2017.06.12-11.53.31:049][604]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2017.06.12-11.53.31:049][604]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2017.06.12-11.53.31:049][604]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2017.06.12-11.53.31:049][604]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2017.06.12-11.53.31:049][604]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2017.06.12-11.53.31:049][604]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2017.06.12-11.53.31:091][604]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2017.06.12-11.53.31:091][604]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2017.06.12-11.53.31:091][604]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2017.06.12-11.53.31:091][604]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2017.06.12-11.53.31:091][604]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2017.06.12-11.53.31:091][604]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2017.06.12-11.53.31:092][604]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2017.06.12-11.53.31:092][604]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2017.06.12-11.53.31:092][604]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2017.06.12-11.53.31:092][604]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2017.06.12-11.53.31:095][604]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2017.06.12-11.53.31:095][604]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2017.06.12-11.53.31:095][604]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2017.06.12-11.53.31:095][604]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2017.06.12-11.53.31:095][604]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2017.06.12-11.53.31:095][604]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2017.06.12-11.53.31:095][604]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2017.06.12-11.53.31:095][604]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2017.06.12-11.53.31:095][604]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2017.06.12-11.53.31:095][604]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2017.06.12-11.53.31:095][604]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2017.06.12-11.53.31:095][604]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2017.06.12-11.53.31:095][604]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2017.06.12-11.53.31:095][604]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2017.06.12-11.53.31:095][604]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2017.06.12-11.53.31:095][604]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2017.06.12-11.53.31:255][604]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2017.06.12-11.53.31:255][604]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2017.06.12-11.53.31:255][604]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2017.06.12-11.53.31:255][604]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2017.06.12-11.53.31:255][604]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2017.06.12-11.53.31:255][604]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2017.06.12-11.53.31:255][604]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2017.06.12-11.53.31:255][604]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2017.06.12-11.53.31:255][604]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2017.06.12-11.53.31:255][604]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2017.06.12-11.53.31:255][604]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2017.06.12-11.53.31:255][604]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2017.06.12-11.53.31:255][604]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2017.06.12-11.53.31:255][604]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2017.06.12-11.53.31:255][604]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2017.06.12-11.53.31:255][604]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2017.06.12-11.53.31:255][604]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2017.06.12-11.53.31:255][604]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2017.06.12-11.53.31:255][604]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2017.06.12-11.53.31:255][604]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2017.06.12-11.53.31:255][604]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2017.06.12-11.53.31:256][604]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2017.06.12-11.53.31:256][604]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2017.06.12-11.53.31:256][604]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2017.06.12-11.53.31:256][604]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2017.06.12-11.53.31:256][604]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2017.06.12-11.53.31:256][604]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2017.06.12-11.53.31:256][604]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2017.06.12-11.53.31:256][604]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2017.06.12-11.53.31:256][604]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2017.06.12-11.53.31:257][604]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2017.06.12-11.53.31:257][604]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2017.06.12-11.53.31:259][604]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2017.06.12-11.53.31:261][604]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2017.06.12-11.53.31:261][604]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2017.06.12-11.53.31:361][604]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2017.06.12-11.53.31:361][604]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2017.06.12-11.53.31:361][604]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2017.06.12-11.53.31:361][604]LogModuleManager: Shutting down and abandoning module Media (90)
+[2017.06.12-11.53.31:361][604]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2017.06.12-11.53.31:361][604]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2017.06.12-11.53.31:362][604]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2017.06.12-11.53.31:362][604]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2017.06.12-11.53.31:362][604]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2017.06.12-11.53.31:362][604]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2017.06.12-11.53.31:362][604]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2017.06.12-11.53.31:362][604]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2017.06.12-11.53.31:362][604]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2017.06.12-11.53.31:362][604]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2017.06.12-11.53.31:362][604]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2017.06.12-11.53.31:362][604]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2017.06.12-11.53.31:362][604]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2017.06.12-11.53.31:362][604]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2017.06.12-11.53.31:362][604]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2017.06.12-11.53.31:362][604]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2017.06.12-11.53.31:363][604]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2017.06.12-11.53.31:363][604]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2017.06.12-11.53.31:363][604]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2017.06.12-11.53.31:363][604]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2017.06.12-11.53.31:368][604]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2017.06.12-11.53.31:368][604]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2017.06.12-11.53.31:368][604]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2017.06.12-11.53.31:368][604]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2017.06.12-11.53.31:368][604]LogModuleManager: Shutting down and abandoning module Core (64)
+[2017.06.12-11.53.31:368][604]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2017.06.12-11.53.31:376][604]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2017.06.12-11.53.32:497][604]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2017.06.12-11.53.32:497][604]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2017.06.12-11.53.32:497][604]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2017.06.12-11.53.32:497][604]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2017.06.12-11.53.32:571][604]LogDerivedDataCache: Shutdown
+[2017.06.12-11.53.32:571][604]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2017.06.12-11.53.32:571][604]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2017.06.12-11.53.32:571][604]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2017.06.12-11.53.32:571][604]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2017.06.12-11.53.32:571][604]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2017.06.12-11.53.32:571][604]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2017.06.12-11.53.32:571][604]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2017.06.12-11.53.32:572][604]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2017.06.12-11.53.32:572][604]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2017.06.12-11.53.32:572][604]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2017.06.12-11.53.32:572][604]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2017.06.12-11.53.32:572][604]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2017.06.12-11.53.32:572][604]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2017.06.12-11.53.32:572][604]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2017.06.12-11.53.32:572][604]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2017.06.12-11.53.32:572][604]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2017.06.12-11.53.32:572][604]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2017.06.12-11.53.32:572][604]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2017.06.12-11.53.32:572][604]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2017.06.12-11.53.32:572][604]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2017.06.12-11.53.32:572][604]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2017.06.12-11.53.32:572][604]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2017.06.12-11.53.32:572][604]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2017.06.12-11.53.32:572][604]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2017.06.12-11.53.32:572][604]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2017.06.12-11.53.32:572][604]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2017.06.12-11.53.32:572][604]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2017.06.12-11.53.32:572][604]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2017.06.12-11.53.32:572][604]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2017.06.12-11.53.32:572][604]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2017.06.12-11.53.32:572][604]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2017.06.12-11.53.32:572][604]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2017.06.12-11.53.32:572][604]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2017.06.12-11.53.32:573][604]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2017.06.12-11.53.32:573][604]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2017.06.12-11.53.32:573][604]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2017.06.12-11.53.32:573][604]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2017.06.12-11.53.32:573][604]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2017.06.12-11.53.32:573][604]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2017.06.12-11.53.34:075][604]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2017.06.12-11.53.34:075][604]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2017.06.12-11.53.34:075][604]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2017.06.12-11.53.34:075][604]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.06.12-11.53.34:075][604]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.06.12-11.53.34:075][604]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.06.12-11.53.34:075][604]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.06.12-11.53.34:112][604]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.06.12-11.53.34:112][604]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.06.12-11.53.34:112][604]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.06.12-11.53.34:112][604]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.06.12-11.53.34:112][604]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.06.12-11.53.34:112][604]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.06.12-11.53.34:112][604]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.06.12-11.53.34:112][604]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.06.12-11.53.34:112][604]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.06.12-11.53.34:112][604]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.06.12-11.53.34:116][604]LogExit: Exiting.
+[2017.06.12-11.53.34:122][604]Log file closed, 06/12/17 20:53:34
