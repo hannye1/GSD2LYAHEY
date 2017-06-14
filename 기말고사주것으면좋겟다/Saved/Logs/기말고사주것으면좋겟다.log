@@ -1,9 +1,9 @@
-﻿Log file open, 06/12/17 20:55:58
+﻿Log file open, 06/14/17 23:52:08
 LogInit:Display: Running engine for game: 기말고사주것으면좋겟다
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1487379553) SRandInit(1487379555).
+LogInit:Display: RandInit(-199428960) SRandInit(-199428958).
 LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.115577
+LogStats: Stats thread started at 0.096438
 LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
 LogInit: API Version: 2992821
 LogInit: Net Version: 3039270
@@ -44,789 +44,500 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.06.12-11.55.58:424][  0]LogInit: Selected Device Profile: [Windows]
-[2017.06.12-11.55.58:424][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.06.12-11.55.58:516][  0]LogInit: Computer: HAROCK
-[2017.06.12-11.55.58:516][  0]LogInit: User: computer1
-[2017.06.12-11.55.58:516][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.06.12-11.55.58:516][  0]LogInit: High frequency timer resolution =3.222882 MHz
-[2017.06.12-11.55.58:517][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2017.06.12-11.55.58:517][  0]LogMemory: Platform Memory Stats for Windows
-[2017.06.12-11.55.58:517][  0]LogMemory: Process Physical Memory: 191.52 MB used, 191.52 MB peak
-[2017.06.12-11.55.58:517][  0]LogMemory: Process Virtual Memory: 195.18 MB used, 195.18 MB peak
-[2017.06.12-11.55.58:517][  0]LogMemory: Physical Memory: 6704.29 MB used, 16361.52 MB total
-[2017.06.12-11.55.58:517][  0]LogMemory: Virtual Memory: 554.57 MB used, 134217728.00 MB total
-[2017.06.12-11.55.58:595][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
-[2017.06.12-11.55.58:645][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:KismetSchema, Key:Default):
+[2017.06.14-14.52.08:475][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.14-14.52.08:475][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.14-14.52.08:607][  0]LogInit: Computer: HAROCK
+[2017.06.14-14.52.08:607][  0]LogInit: User: computer1
+[2017.06.14-14.52.08:607][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.06.14-14.52.08:607][  0]LogInit: High frequency timer resolution =3.222882 MHz
+[2017.06.14-14.52.08:608][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.06.14-14.52.08:608][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.14-14.52.08:608][  0]LogMemory: Process Physical Memory: 191.54 MB used, 191.54 MB peak
+[2017.06.14-14.52.08:608][  0]LogMemory: Process Virtual Memory: 195.16 MB used, 195.16 MB peak
+[2017.06.14-14.52.08:608][  0]LogMemory: Physical Memory: 6259.91 MB used, 16361.52 MB total
+[2017.06.14-14.52.08:608][  0]LogMemory: Virtual Memory: 554.57 MB used, 134217728.00 MB total
+[2017.06.14-14.52.08:669][  0]LogTextLocalizationManager: No specific translations for ('ko-KR') exist, so ('ko') translations will be used.
+[2017.06.14-14.52.08:719][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:KismetSchema, Key:Default):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.12/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (940523119) Localized String: (디폴트)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.12/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (940523119) Localized String: (기본)
-[2017.06.12-11.55.58:646][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
+[2017.06.14-14.52.08:719][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:InternalTimeAccumulator):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.12/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용되는 누적 시간입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.12/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (502993589) Localized String: (이 노드에서 애셋을 레퍼런싱하는 데 사용된 누적 시간입니다.)
-[2017.06.12-11.55.58:646][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+[2017.06.14-14.52.08:719][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.12/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (True 면, 스테이트에서 최고 가중치 애니메이션을 찾는 "Relevant anim" 노드는 이 노드를 무시합니다.
  )
 Localization Resource: (C:/Program Files/Epic Games/UE_4.12/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (319969718) Localized String: (True 면 스테이트 내 최고 웨이팅된 애니메이션을 찾는 "Relevant anim" 노드가 무시됩니다.
  )
-[2017.06.12-11.55.58:646][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
+[2017.06.14-14.52.08:719][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:BlendWeight):
 Localization Resource: (C:/Program Files/Epic Games/UE_4.12/Engine/Content/Localization/EditorTutorials/ko/EditorTutorials.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 마지막 걸린 블렌드웨이트 입니다.)
 Localization Resource: (C:/Program Files/Epic Games/UE_4.12/Engine/Content/Localization/Engine/ko/Engine.locres) Source String Hash: (-1232800293) Localized String: (이 노드에 대해 마지막 접한 블렌드 웨이트)
-[2017.06.12-11.55.58:888][  0]LogD3D11RHI: D3D11 adapters:
-[2017.06.12-11.55.59:543][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2017.06.12-11.55.59:543][  0]LogD3D11RHI:       4058/0/8180 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.06.12-11.55.59:545][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.06.12-11.55.59:545][  0]LogD3D11RHI:       0/0/8180 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.06.12-11.55.59:545][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.06.12-11.55.59:554][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.06.12-11.55.59:554][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2017.06.12-11.55.59:554][  0]LogWindows: EnumDisplayDevices:
-[2017.06.12-11.55.59:555][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2017.06.12-11.55.59:556][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2017.06.12-11.55.59:556][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2017.06.12-11.55.59:557][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2017.06.12-11.55.59:558][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.06.12-11.55.59:558][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2017.06.12-11.55.59:558][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
-[2017.06.12-11.55.59:558][  0]LogD3D11RHI:      Driver Date: 12-29-2016
-[2017.06.12-11.55.59:558][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.06.12-11.56.00:132][  0]LogD3D11RHI: Async texture creation enabled
-[2017.06.12-11.56.00:214][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.06.12-11.56.00:215][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Intermediate/Shaders/WorkingDirectory/13000/).
-[2017.06.12-11.56.00:215][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/COMPUT~1/AppData/Local/Temp/UnrealShaderWorkingDir/040A69C34FDA7FFB21E77482DF0370E5/'.
-[2017.06.12-11.56.00:215][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.06.12-11.56.02:586][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.06.12-11.56.02:604][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.06.12-11.56.02:621][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.06.12-11.56.02:641][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.06.12-11.56.02:661][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.06.12-11.56.02:676][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.06.12-11.56.02:690][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.06.12-11.56.02:704][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.06.12-11.56.02:717][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.06.12-11.56.02:733][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.06.12-11.56.02:747][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.06.12-11.56.02:773][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.06.12-11.56.02:774][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.06.12-11.56.02:776][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.06.12-11.56.02:806][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.06.12-11.56.02:820][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.06.12-11.56.02:837][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.06.12-11.56.02:852][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.06.12-11.56.02:870][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.06.12-11.56.02:870][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.06.12-11.56.03:020][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.06.12-11.56.04:722][  0]LogDerivedDataCache: Loaded boot cache 0.10s 48MB C:/Users/computer-1/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
-[2017.06.12-11.56.04:723][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/computer-1/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
-[2017.06.12-11.56.04:723][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.06.12-11.56.04:723][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.06.12-11.56.04:723][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.06.12-11.56.04:723][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.06.12-11.56.04:751][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.06.12-11.56.04:764][  0]LogDerivedDataCache: Using Local data cache path C:/Users/computer-1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.06.12-11.56.05:092][  0]LogInit: Selected Device Profile: [Windows]
-[2017.06.12-11.56.05:093][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.06.12-11.56.05:430][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2017.06.12-11.56.05:430][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.06.12-11.56.05:430][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2017.06.12-11.56.05:826][  0]LogAssetRegistry: FAssetRegistry took 0.0211 seconds to start up
-[2017.06.12-11.56.06:207][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.375278 seconds
-[2017.06.12-11.56.06:213][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
-[2017.06.12-11.56.06:213][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
-[2017.06.12-11.56.06:213][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.06.12-11.56.06:227][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.06.12-11.56.06:541][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.06.12-11.56.06:541][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.06.12-11.56.07:925][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.06.12-11.56.09:072][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
-[2017.06.12-11.56.09:074][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
-[2017.06.12-11.56.09:096][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
-[2017.06.12-11.56.09:114][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
-[2017.06.12-11.56.09:557][  0]LogEngine: Initializing Engine...
-[2017.06.12-11.56.09:558][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2017.06.12-11.56.09:560][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2017.06.12-11.56.09:769][  0]LogAIModule: Creating AISystem for world NewWorld
-[2017.06.12-11.56.09:792][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.12-11.56.09:838][  0]LogInit: FAudioDevice initialized.
-[2017.06.12-11.56.09:894][  0]LogDerivedDataCache: Saved boot cache 0.06s 48MB C:/Users/computer-1/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
-[2017.06.12-11.56.09:909][  0]LogInit: Texture streaming: Enabled
-[2017.06.12-11.56.09:958][  0]LogInit: Transaction tracking system initialized
-[2017.06.12-11.56.09:998][  0]BlueprintLog: New page: 에디터 로드
-[2017.06.12-11.56.10:205][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
-[2017.06.12-11.56.10:318][  0]LogConsoleResponse:Display: 
-[2017.06.12-11.56.10:490][  0]LogCook:Display: Max memory allowance for cook 8192mb
-[2017.06.12-11.56.10:490][  0]LogCook:Display: Mobile HDR setting 1
-[2017.06.12-11.56.10:698][  0]LogFileCache: Scanning file cache for directory 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/' took 0.02s
-[2017.06.12-11.56.10:698][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
-[2017.06.12-11.56.10:698][  0]Cmd: MAP LOAD FILE="E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/Maps/BaseMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.06.12-11.56.10:699][  0]LightingResults: New page: 라이팅 빌드
-[2017.06.12-11.56.10:705][  0]MapCheck: New page: 맵 체크
-[2017.06.12-11.56.10:705][  0]LightingResults: New page: 라이팅 빌드
-[2017.06.12-11.56.11:214][  0]LogAIModule: Creating AISystem for world BaseMap
-[2017.06.12-11.56.11:229][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.06.12-11.56.11:238][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.06.12-11.56.11:395][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 156.613ms.
-[2017.06.12-11.56.11:395][  0]LogFileHelpers: Loading map 'BaseMap' took 0.696
-[2017.06.12-11.56.11:616][  0]LogCollectionManager: Loaded 0 collections in 0.004941 seconds
-[2017.06.12-11.56.11:668][  0]LogFileCache: Scanning file cache for directory 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Collections/' took 0.01s
-[2017.06.12-11.56.11:669][  0]LogFileCache: Scanning file cache for directory 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/Developers/computer1/Collections/' took 0.01s
-[2017.06.12-11.56.11:669][  0]LogFileCache: Scanning file cache for directory 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/Collections/' took 0.01s
-[2017.06.12-11.56.11:669][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
-[2017.06.12-11.56.11:686][  0]LogContentBrowser: Native class hierarchy populated in 0.0173 seconds. Added 2047 classes and 369 folders.
-[2017.06.12-11.56.11:694][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.06.12-11.56.11:694][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.06.12-11.56.11:695][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0009 seconds. Added 12 classes and 0 folders.
-[2017.06.12-11.56.11:704][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.06.12-11.56.11:827][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2017.06.12-11.56.11:848][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2017.06.12-11.56.11:954][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.06.12-11.56.11:962][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
-[2017.06.12-11.56.11:993][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
-[2017.06.12-11.56.11:993][  0]LogLoad: Full Startup: 15.76 seconds (BP compile: 0.08 seconds)
-[2017.06.12-11.56.11:993][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.06.12-11.56.11:993][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.06.12-11.56.12:341][  0]LogOcInput: OculusInput pre-init called
-[2017.06.12-11.56.12:364][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.06.12-11.56.12:585][  0]LogRenderer: Reallocating scene render targets to support 924x404 (Frame:2).
-[2017.06.12-11.56.13:358][  3]LogAssetRegistry: Asset discovery search completed in 7.5538 seconds
-[2017.06.12-11.56.13:358][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2017.06.12-11.56.13:358][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
-[2017.06.12-11.56.25:890][782]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 111 classes and 0 folders.
-[2017.06.12-12.00.56:239][468]BlueprintLog: New page: 기말게임 컴파일
-[2017.06.12-12.00.56:496][468]BlueprintEditorCompileResults: 정보 [0300.26] 기말게임 컴파일에 성공했습니다! [소요시간 256 ms] (/Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임)
-[2017.06.12-12.00.57:880][575]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.12-12.00.57:883][575]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 6:00:57)
-[2017.06.12-12.00.57:883][575]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
-[2017.06.12-12.00.57:888][575]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004610s)
-[2017.06.12-12.00.57:889][575]LogAIModule: Creating AISystem for world BaseMap
-[2017.06.12-12.00.57:889][575]LogPlayLevel: PIE: World Init took: (0.001585s)
-[2017.06.12-12.00.57:890][575]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.006510s)
-[2017.06.12-12.00.57:937][575]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.12-12.00.57:969][575]LogInit: FAudioDevice initialized.
-[2017.06.12-12.00.58:039][575]LogWorld: Game class is '게임모드_C'
-[2017.06.12-12.00.58:043][575]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-21.00.58
-[2017.06.12-12.00.58:043][575]LogWorld: Bringing up level for play took: 0.002381
-[2017.06.12-12.00.58:051][575]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
-[2017.06.12-12.00.58:175][575]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 0.514
-[2017.06.12-12.00.58:229][575]LogRenderer: Reallocating scene render targets to support 1292x756 (Frame:431).
-[2017.06.12-12.01.06:026][147]BlueprintLog: New page: 기말게임 컴파일
-[2017.06.12-12.01.06:176][147]BlueprintEditorCompileResults: 정보 [0309.94] 기말게임 컴파일에 성공했습니다! [소요시간 150 ms] (/Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임)
-[2017.06.12-12.01.07:484][238]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.12-12.01.07:484][238]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 6:01:07)
-[2017.06.12-12.01.07:484][238]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
-[2017.06.12-12.01.07:488][238]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003987s)
-[2017.06.12-12.01.07:489][238]LogAIModule: Creating AISystem for world BaseMap
-[2017.06.12-12.01.07:489][238]LogPlayLevel: PIE: World Init took: (0.000977s)
-[2017.06.12-12.01.07:490][238]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.005247s)
-[2017.06.12-12.01.07:540][238]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.12-12.01.07:572][238]LogInit: FAudioDevice initialized.
-[2017.06.12-12.01.07:625][238]LogWorld: Game class is '게임모드_C'
-[2017.06.12-12.01.07:630][238]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-21.01.07
-[2017.06.12-12.01.07:630][238]LogWorld: Bringing up level for play took: 0.002931
-[2017.06.12-12.01.07:760][238]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 0.1
-[2017.06.12-12.01.36:207][321]BlueprintLog: New page: 기말게임 컴파일
-[2017.06.12-12.01.36:368][321]BlueprintEditorCompileResults: 정보 [0340.13] 기말게임 컴파일에 성공했습니다! [소요시간 160 ms] (/Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임)
-[2017.06.12-12.01.37:192][374]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.12-12.01.37:192][374]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 6:01:37)
-[2017.06.12-12.01.37:192][374]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
-[2017.06.12-12.01.37:196][374]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004002s)
-[2017.06.12-12.01.37:197][374]LogAIModule: Creating AISystem for world BaseMap
-[2017.06.12-12.01.37:197][374]LogPlayLevel: PIE: World Init took: (0.001132s)
-[2017.06.12-12.01.37:197][374]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.005423s)
-[2017.06.12-12.01.37:249][374]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.12-12.01.37:280][374]LogInit: FAudioDevice initialized.
-[2017.06.12-12.01.37:338][374]LogWorld: Game class is '게임모드_C'
-[2017.06.12-12.01.37:341][374]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-21.01.37
-[2017.06.12-12.01.37:342][374]LogWorld: Bringing up level for play took: 0.002319
-[2017.06.12-12.01.37:477][374]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: -0.184
-[2017.06.12-12.03.51:245][217]BlueprintLog: New page: 플레이 전 자동 컴파일
-[2017.06.12-12.03.51:271][217]LogPlayLevel: [PlayLevel] Compiling 기말게임 before play...
-[2017.06.12-12.03.51:393][217]LogPlayLevel: PlayLevel: Blueprint regeneration took 147 ms (1 blueprints)
-[2017.06.12-12.03.51:427][217]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 6:03:51)
-[2017.06.12-12.03.51:427][217]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
-[2017.06.12-12.03.51:431][217]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004048s)
-[2017.06.12-12.03.51:432][217]LogAIModule: Creating AISystem for world BaseMap
-[2017.06.12-12.03.51:432][217]LogPlayLevel: PIE: World Init took: (0.001203s)
-[2017.06.12-12.03.51:432][217]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.005486s)
-[2017.06.12-12.03.51:482][217]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.12-12.03.51:513][217]LogInit: FAudioDevice initialized.
-[2017.06.12-12.03.51:566][217]LogWorld: Game class is '게임모드_C'
-[2017.06.12-12.03.51:570][217]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-21.03.51
-[2017.06.12-12.03.51:570][217]LogWorld: Bringing up level for play took: 0.002558
-[2017.06.12-12.03.51:675][217]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 0.014
-[2017.06.12-12.04.03:500][ 65]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.12-12.04.03:500][ 65]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 6:04:03)
-[2017.06.12-12.04.03:500][ 65]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
-[2017.06.12-12.04.03:504][ 65]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003563s)
-[2017.06.12-12.04.03:505][ 65]LogAIModule: Creating AISystem for world BaseMap
-[2017.06.12-12.04.03:505][ 65]LogPlayLevel: PIE: World Init took: (0.001132s)
-[2017.06.12-12.04.03:505][ 65]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.005019s)
-[2017.06.12-12.04.03:554][ 65]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.12-12.04.03:589][ 65]LogInit: FAudioDevice initialized.
-[2017.06.12-12.04.03:652][ 65]LogWorld: Game class is '게임모드_C'
-[2017.06.12-12.04.03:657][ 65]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-21.04.03
-[2017.06.12-12.04.03:657][ 65]LogWorld: Bringing up level for play took: 0.003080
-[2017.06.12-12.04.03:803][ 65]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 0.142
-[2017.06.12-12.04.06:477][222]Set new viewmode: Unlit
-[2017.06.12-12.07.45:630][127]LogEditorViewport: Clicking on Actor (LMB): 기말게임_C (기말게임)
-[2017.06.12-12.07.49:407][539]LogEditorViewport: Clicking on Actor (LMB): 기말게임_C (기말게임)
-[2017.06.12-12.07.49:990][603]LogEditorViewport: Clicking on Actor (LMB): 기말게임_C (기말게임)
-[2017.06.12-12.07.51:161][736]LogEditorViewport: Clicking on Actor (LMB): 기말게임_C (기말게임)
-[2017.06.12-12.08.21:293][782]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2017.06.12-12.08.23:501][ 20]Cmd: DELETE
-[2017.06.12-12.08.23:501][ 20]Cmd: ACTOR DELETE
-[2017.06.12-12.08.23:502][ 20]LogEditorActor: Deleted Actor: StaticMeshActor
-[2017.06.12-12.08.23:531][ 20]LogEditorActor: Deleted 1 Actors (0.029 secs)
-[2017.06.12-12.08.39:432][490]LogEditorViewport: Clicking on Actor (LMB): 기말게임_C (기말게임)
-[2017.06.12-12.08.47:845][119]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.12-12.08.47:845][119]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 6:08:47)
-[2017.06.12-12.08.47:845][119]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
-[2017.06.12-12.08.47:849][119]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003672s)
-[2017.06.12-12.08.47:851][119]LogAIModule: Creating AISystem for world BaseMap
-[2017.06.12-12.08.47:851][119]LogPlayLevel: PIE: World Init took: (0.001746s)
-[2017.06.12-12.08.47:851][119]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.006200s)
-[2017.06.12-12.08.47:928][119]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.12-12.08.47:961][119]LogInit: FAudioDevice initialized.
-[2017.06.12-12.08.48:026][119]LogWorld: Game class is '게임모드_C'
-[2017.06.12-12.08.48:030][119]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-21.08.48
-[2017.06.12-12.08.48:031][119]LogWorld: Bringing up level for play took: 0.002810
-[2017.06.12-12.08.48:201][119]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 0.54
-[2017.06.12-12.09.04:176][914]BlueprintLog: New page: 기말게임 컴파일
-[2017.06.12-12.09.04:685][914]BlueprintEditorCompileResults: 정보 [0788.45] 기말게임 컴파일에 성공했습니다! [소요시간 508 ms] (/Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임)
-[2017.06.12-12.09.05:526][950]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.12-12.09.05:526][950]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 6:09:05)
-[2017.06.12-12.09.05:526][950]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
-[2017.06.12-12.09.05:530][950]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003892s)
-[2017.06.12-12.09.05:531][950]LogAIModule: Creating AISystem for world BaseMap
-[2017.06.12-12.09.05:532][950]LogPlayLevel: PIE: World Init took: (0.001130s)
-[2017.06.12-12.09.05:532][950]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.005290s)
-[2017.06.12-12.09.05:614][950]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.12-12.09.05:648][950]LogInit: FAudioDevice initialized.
-[2017.06.12-12.09.05:713][950]LogWorld: Game class is '게임모드_C'
-[2017.06.12-12.09.05:716][950]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-21.09.05
-[2017.06.12-12.09.05:717][950]LogWorld: Bringing up level for play took: 0.002315
-[2017.06.12-12.09.05:881][950]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 0.22
-[2017.06.12-12.09.39:206][625]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.12-12.09.39:206][625]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 6:09:39)
-[2017.06.12-12.09.39:206][625]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
-[2017.06.12-12.09.39:210][625]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003490s)
-[2017.06.12-12.09.39:211][625]LogAIModule: Creating AISystem for world BaseMap
-[2017.06.12-12.09.39:211][625]LogPlayLevel: PIE: World Init took: (0.001240s)
-[2017.06.12-12.09.39:211][625]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.005091s)
-[2017.06.12-12.09.39:285][625]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.12-12.09.39:322][625]LogInit: FAudioDevice initialized.
-[2017.06.12-12.09.39:378][625]LogWorld: Game class is '게임모드_C'
-[2017.06.12-12.09.39:382][625]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-21.09.39
-[2017.06.12-12.09.39:382][625]LogWorld: Bringing up level for play took: 0.002278
-[2017.06.12-12.09.39:453][625]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: -0.208
-[2017.06.12-12.11.11:191][167]LogEditorViewport: Clicking on Actor (LMB): 기말게임_C (기말게임)
-[2017.06.12-12.11.53:535][381]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2017.06.12-12.12.00:859][ 53]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.12-12.12.00:859][ 53]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 6:12:00)
-[2017.06.12-12.12.00:859][ 53]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
-[2017.06.12-12.12.00:862][ 53]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002997s)
-[2017.06.12-12.12.00:863][ 53]LogAIModule: Creating AISystem for world BaseMap
-[2017.06.12-12.12.00:863][ 53]LogPlayLevel: PIE: World Init took: (0.001169s)
-[2017.06.12-12.12.00:864][ 53]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.004469s)
-[2017.06.12-12.12.00:943][ 53]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.12-12.12.00:978][ 53]LogInit: FAudioDevice initialized.
-[2017.06.12-12.12.01:036][ 53]LogWorld: Game class is '게임모드_C'
-[2017.06.12-12.12.01:040][ 53]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-21.12.01
-[2017.06.12-12.12.01:040][ 53]LogWorld: Bringing up level for play took: 0.002538
-[2017.06.12-12.12.01:114][ 53]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: -0.547
-[2017.06.12-12.15.07:823][757]LogSavePackage: Save=233.03ms
-[2017.06.12-12.15.07:826][757]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/BaseMap989F77804BEE32AF3E5EF0A7087E3ECB.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/Maps/BaseMap.umap'
-[2017.06.12-12.15.07:953][757]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/Maps/BaseMap.umap
-[2017.06.12-12.23.04:146][446]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (밤하늘배경)
-[2017.06.12-12.23.05:233][506]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (밤하늘배경)
-[2017.06.12-12.25.32:361][570]BlueprintLog: New page: 플레이 전 자동 컴파일
-[2017.06.12-12.25.32:383][570]LogPlayLevel: [PlayLevel] Compiling 기말게임 before play...
-[2017.06.12-12.25.32:546][570]LogPlayLevel: PlayLevel: Blueprint regeneration took 185 ms (1 blueprints)
-[2017.06.12-12.25.32:585][570]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 6:25:32)
-[2017.06.12-12.25.32:585][570]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
-[2017.06.12-12.25.32:588][570]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003183s)
-[2017.06.12-12.25.32:589][570]LogAIModule: Creating AISystem for world BaseMap
-[2017.06.12-12.25.32:589][570]LogPlayLevel: PIE: World Init took: (0.001283s)
-[2017.06.12-12.25.32:590][570]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.004776s)
-[2017.06.12-12.25.32:669][570]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.12-12.25.32:706][570]LogInit: FAudioDevice initialized.
-[2017.06.12-12.25.32:762][570]LogWorld: Game class is '게임모드_C'
-[2017.06.12-12.25.32:766][570]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-21.25.32
-[2017.06.12-12.25.32:766][570]LogWorld: Bringing up level for play took: 0.002154
-[2017.06.12-12.25.32:893][570]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 1.232
-[2017.06.12-12.26.31:856][509]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.12-12.26.31:857][509]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 6:26:31)
-[2017.06.12-12.26.31:857][509]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
-[2017.06.12-12.26.31:869][509]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011611s)
-[2017.06.12-12.26.31:871][509]LogAIModule: Creating AISystem for world BaseMap
-[2017.06.12-12.26.31:871][509]LogPlayLevel: PIE: World Init took: (0.002653s)
-[2017.06.12-12.26.31:872][509]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.014982s)
-[2017.06.12-12.26.32:042][509]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.12-12.26.32:186][509]LogInit: FAudioDevice initialized.
-[2017.06.12-12.26.32:337][509]LogWorld: Game class is '게임모드_C'
-[2017.06.12-12.26.32:353][509]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-21.26.32
-[2017.06.12-12.26.32:354][509]LogWorld: Bringing up level for play took: 0.012529
-[2017.06.12-12.26.32:908][509]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 1.247
-[2017.06.12-12.26.40:053][669]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.12-12.26.40:053][669]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 6:26:40)
-[2017.06.12-12.26.40:053][669]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
-[2017.06.12-12.26.40:056][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003135s)
-[2017.06.12-12.26.40:058][669]LogAIModule: Creating AISystem for world BaseMap
-[2017.06.12-12.26.40:058][669]LogPlayLevel: PIE: World Init took: (0.001328s)
-[2017.06.12-12.26.40:058][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.004700s)
-[2017.06.12-12.26.40:131][669]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.12-12.26.40:173][669]LogInit: FAudioDevice initialized.
-[2017.06.12-12.26.40:239][669]LogWorld: Game class is '게임모드_C'
-[2017.06.12-12.26.40:243][669]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-21.26.40
-[2017.06.12-12.26.40:243][669]LogWorld: Bringing up level for play took: 0.002099
-[2017.06.12-12.26.40:426][669]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 0.765
-[2017.06.12-12.27.34:634][631]LogEditorViewport: Clicking on Actor (LMB): 기말게임_C (기말게임)
-[2017.06.12-12.27.42:036][ 28]LogEditorActor: Deleted Actor: PlayerStart
-[2017.06.12-12.27.42:070][ 28]LogEditorActor: Deleted 1 Actors (0.035 secs)
-[2017.06.12-12.27.46:914][289]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.12-12.27.46:914][289]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 6:27:46)
-[2017.06.12-12.27.46:914][289]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
-[2017.06.12-12.27.46:917][289]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003144s)
-[2017.06.12-12.27.46:919][289]LogAIModule: Creating AISystem for world BaseMap
-[2017.06.12-12.27.46:919][289]LogPlayLevel: PIE: World Init took: (0.001886s)
-[2017.06.12-12.27.46:919][289]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.005286s)
-[2017.06.12-12.27.46:971][289]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.12-12.27.47:003][289]LogInit: FAudioDevice initialized.
-[2017.06.12-12.27.47:078][289]LogWorld: Game class is '게임모드_C'
-[2017.06.12-12.27.47:084][289]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-21.27.47
-[2017.06.12-12.27.47:084][289]LogWorld: Bringing up level for play took: 0.003536
-[2017.06.12-12.27.47:259][289]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: -0.401
-[2017.06.12-12.28.26:805][810]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: {GameModeName}".
-[2017.06.12-12.28.26:805][810]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "게임모드: {GameModeName} 편집".
-[2017.06.12-12.29.07:560][ 31]LogEditorViewport: Clicking on Actor (LMB): 기말게임_C (기말게임)
-[2017.06.12-12.29.23:539][787]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.06.12-12.29.23:539][787]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.12-12.29.23:539][787]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 6:29:23)
-[2017.06.12-12.29.23:539][787]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
-[2017.06.12-12.29.23:543][787]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003657s)
-[2017.06.12-12.29.23:544][787]LogAIModule: Creating AISystem for world BaseMap
-[2017.06.12-12.29.23:544][787]LogPlayLevel: PIE: World Init took: (0.001330s)
-[2017.06.12-12.29.23:544][787]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.005319s)
-[2017.06.12-12.29.23:637][787]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.12-12.29.23:663][787]LogInit: FAudioDevice initialized.
-[2017.06.12-12.29.23:754][787]LogWorld: Game class is '게임모드_C'
-[2017.06.12-12.29.23:757][787]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-21.29.23
-[2017.06.12-12.29.23:757][787]LogWorld: Bringing up level for play took: 0.001766
-[2017.06.12-12.29.23:768][787]LogTexture:Display: 텍스처 빌드중: VirtualJoystick_Background (BGRA8)
-[2017.06.12-12.29.23:775][787]LogTexture:Display: 텍스처 빌드중: VirtualJoystick_Thumb (BGRA8)
-[2017.06.12-12.29.23:780][787]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 0.119
-[2017.06.12-12.29.23:781][787]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.06.12-12.29.31:929][265]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.06.12-12.29.32:030][265]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.06.12-12.30.45:701][281]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.06.12-12.30.45:701][281]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.12-12.30.45:701][281]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 6:30:45)
-[2017.06.12-12.30.45:701][281]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
-[2017.06.12-12.30.45:705][281]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003698s)
-[2017.06.12-12.30.45:706][281]LogAIModule: Creating AISystem for world BaseMap
-[2017.06.12-12.30.45:706][281]LogPlayLevel: PIE: World Init took: (0.001067s)
-[2017.06.12-12.30.45:706][281]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.005026s)
-[2017.06.12-12.30.45:787][281]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.12-12.30.45:829][281]LogInit: FAudioDevice initialized.
-[2017.06.12-12.30.45:907][281]LogWorld: Game class is '게임모드_C'
-[2017.06.12-12.30.45:910][281]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-21.30.45
-[2017.06.12-12.30.45:911][281]LogWorld: Bringing up level for play took: 0.002330
-[2017.06.12-12.30.45:912][281]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 0.252
-[2017.06.12-12.30.45:913][281]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.06.12-12.30.46:274][296]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.30.46:547][309]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.30.47:321][353]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.30.48:294][409]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.30.48:966][451]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.30.49:831][502]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.30.51:190][577]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.30.51:446][593]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.30.52:624][654]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.30.53:407][699]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.30.54:516][773]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.30.54:657][781]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.30.55:815][845]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.30.56:731][899]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.30.57:764][937]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.30.58:753][963]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.30.59:004][970]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.30.59:132][973]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.31.00:344][  6]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.31.01:511][ 34]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.31.02:587][ 62]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.31.02:739][ 66]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.31.03:569][ 88]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.31.03:723][ 92]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.31.04:663][117]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.31.05:662][143]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.31.05:862][148]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.31.13:009][514]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.06.12-12.31.13:132][514]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.06.12-12.31.21:708][  0]LogRenderer: Reallocating scene render targets to support 1292x900 (Frame:12935).
-[2017.06.12-12.31.54:737][531]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2017.06.12-12.32.04:944][913]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.06.12-12.32.04:944][913]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.12-12.32.04:944][913]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 6:32:04)
-[2017.06.12-12.32.04:945][913]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
-[2017.06.12-12.32.04:953][913]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008528s)
-[2017.06.12-12.32.04:956][913]LogAIModule: Creating AISystem for world BaseMap
-[2017.06.12-12.32.04:957][913]LogPlayLevel: PIE: World Init took: (0.003354s)
-[2017.06.12-12.32.04:957][913]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.012445s)
-[2017.06.12-12.32.05:116][913]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.12-12.32.05:217][913]LogInit: FAudioDevice initialized.
-[2017.06.12-12.32.05:383][913]LogWorld: Game class is '게임모드_C'
-[2017.06.12-12.32.05:391][913]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-21.32.05
-[2017.06.12-12.32.05:391][913]LogWorld: Bringing up level for play took: 0.004609
-[2017.06.12-12.32.05:396][913]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: -0.265
-[2017.06.12-12.32.05:397][913]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.06.12-12.32.05:966][923]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.32.06:723][942]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.32.07:414][960]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.32.08:509][987]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.32.09:440][ 11]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.32.10:485][ 38]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.32.10:851][ 48]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.32.11:926][ 77]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.32.12:943][104]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.32.13:341][115]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.32.14:408][143]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.32.15:347][190]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.32.16:457][260]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.32.17:567][330]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.32.18:355][381]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.32.19:193][438]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.32.21:670][596]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.06.12-12.32.21:770][596]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.06.12-12.32.48:503][799]LogEditorViewport: Clicking on Actor (context menu): 기말게임_C (기말게임)
-[2017.06.12-12.33.37:329][408]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.06.12-12.33.37:329][408]BlueprintLog: New page: 플레이 전 자동 컴파일
-[2017.06.12-12.33.37:341][408]LogPlayLevel: [PlayLevel] Compiling 기말게임 before play...
-[2017.06.12-12.33.37:546][408]LogPlayLevel: PlayLevel: Blueprint regeneration took 217 ms (1 blueprints)
-[2017.06.12-12.33.37:590][408]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 6:33:37)
-[2017.06.12-12.33.37:590][408]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
-[2017.06.12-12.33.37:594][408]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004146s)
-[2017.06.12-12.33.37:596][408]LogAIModule: Creating AISystem for world BaseMap
-[2017.06.12-12.33.37:596][408]LogPlayLevel: PIE: World Init took: (0.001864s)
-[2017.06.12-12.33.37:597][408]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.006433s)
-[2017.06.12-12.33.37:680][408]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.12-12.33.37:705][408]LogInit: FAudioDevice initialized.
-[2017.06.12-12.33.37:776][408]LogWorld: Game class is '게임모드_C'
-[2017.06.12-12.33.37:779][408]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-21.33.37
-[2017.06.12-12.33.37:780][408]LogWorld: Bringing up level for play took: 0.001989
-[2017.06.12-12.33.37:781][408]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 0.12
-[2017.06.12-12.33.37:781][408]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.06.12-12.33.38:252][435]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.33.38:357][443]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.33.39:055][488]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.33.40:874][598]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.06.12-12.33.40:980][598]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.06.12-12.34.39:935][949]LogSavePackage: Save=244.47ms
-[2017.06.12-12.34.39:935][949]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/BaseMap_Auto1C7EF6BEF431E16CB39AB15B0A4B8B4AC.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/Maps/BaseMap_Auto1.umap'
-[2017.06.12-12.34.39:957][949]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/Maps/BaseMap_Auto1.umap
-[2017.06.12-12.34.39:983][949]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/기말과제를끝내기위한폴더/Maps/BaseMap' took 0.432
-[2017.06.12-12.34.39:983][949]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.432
-[2017.06.12-12.34.39:985][949]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/기말과제를끝내기위한폴더/메인/기말게임] ([1] browsable assets)...
-[2017.06.12-12.34.40:005][949]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임]
-[2017.06.12-12.34.40:005][949]OBJ SavePackage: Finished generating thumbnails for package [/Game/기말과제를끝내기위한폴더/메인/기말게임]
-[2017.06.12-12.34.40:005][949]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/기말과제를끝내기위한폴더/메인/기말게임" FILE="E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/기말게임_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2017.06.12-12.34.40:286][949]LogSavePackage: Save=183.85ms
-[2017.06.12-12.34.40:286][949]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/기말게임_Auto1931D4C9B4AD15AD8715415A8920B583C.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/기말게임_Auto1.uasset'
-[2017.06.12-12.34.40:326][949]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/기말게임_Auto1.uasset
-[2017.06.12-12.34.40:326][949]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/기말과제를끝내기위한폴더/메인/게임모드] ([1] browsable assets)...
-[2017.06.12-12.34.40:326][949]OBJ SavePackage: Finished generating thumbnails for package [/Game/기말과제를끝내기위한폴더/메인/게임모드]
-[2017.06.12-12.34.40:327][949]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/기말과제를끝내기위한폴더/메인/게임모드" FILE="E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/게임모드_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2017.06.12-12.34.40:451][949]LogSavePackage: Save=55.47ms
-[2017.06.12-12.34.40:451][949]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/게임모드_Auto155BCDDD940109315A2A40CA32024B0DF.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/게임모드_Auto1.uasset'
-[2017.06.12-12.34.40:482][949]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Autosaves/Game/기말과제를끝내기위한폴더/메인/게임모드_Auto1.uasset
-[2017.06.12-12.34.40:482][949]LogFileHelpers: Auto-saving content packages took 0.498
-[2017.06.12-12.39.52:804][459]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.06.12-12.39.52:804][459]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.12-12.39.52:804][459]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 6:39:52)
-[2017.06.12-12.39.52:804][459]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
-[2017.06.12-12.39.52:808][459]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003573s)
-[2017.06.12-12.39.52:809][459]LogAIModule: Creating AISystem for world BaseMap
-[2017.06.12-12.39.52:809][459]LogPlayLevel: PIE: World Init took: (0.001004s)
-[2017.06.12-12.39.52:809][459]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.004808s)
-[2017.06.12-12.39.52:883][459]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.12-12.39.52:913][459]LogInit: FAudioDevice initialized.
-[2017.06.12-12.39.52:976][459]LogWorld: Game class is '게임모드_C'
-[2017.06.12-12.39.52:979][459]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-21.39.52
-[2017.06.12-12.39.52:979][459]LogWorld: Bringing up level for play took: 0.002020
-[2017.06.12-12.39.53:132][459]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: -0.529
-[2017.06.12-12.39.53:132][459]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.06.12-12.39.54:131][509]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.39.54:180][511]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.39.54:562][532]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.39.54:699][539]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.39.54:840][546]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.39.55:053][557]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.39.55:248][567]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.39.55:942][606]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.39.56:225][621]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.39.56:802][653]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.39.58:224][724]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.39.59:045][770]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.40.01:082][879]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.06.12-12.40.01:173][879]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.06.12-12.40.08:166][300]LogSavePackage: Save=233.18ms
-[2017.06.12-12.40.08:166][300]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/BaseMap65D64BE3474927659AB7DCA801CD38D1.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/Maps/BaseMap.umap'
-[2017.06.12-12.40.08:229][300]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/Maps/BaseMap.umap
-[2017.06.12-12.40.08:391][300]LogFileHelpers: Saving map 'BaseMap' took 0.913
-[2017.06.12-12.40.08:400][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/기말과제를끝내기위한폴더/메인/기말게임" FILE="E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/메인/기말게임.uasset" SILENT=true
-[2017.06.12-12.40.08:659][300]LogSavePackage: Save=182.36ms
-[2017.06.12-12.40.08:660][300]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/기말게임899B609043E0B4A3C17E8DBD99235A4E.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/메인/기말게임.uasset'
-[2017.06.12-12.40.08:722][300]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/메인/기말게임.uasset
-[2017.06.12-12.40.08:725][300]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/기말과제를끝내기위한폴더/메인/게임모드" FILE="E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/메인/게임모드.uasset" SILENT=true
-[2017.06.12-12.40.08:867][300]LogSavePackage: Save=77.61ms
-[2017.06.12-12.40.08:867][300]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/게임모드F32925FA4E90AE07735764AE324B8DF8.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/메인/게임모드.uasset'
-[2017.06.12-12.40.08:973][300]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/메인/게임모드.uasset
-[2017.06.12-12.43.39:019][301]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.06.12-12.43.39:019][301]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.12-12.43.39:019][301]PIE: New page: PIE 세션: BaseMap (2017. 6. 13. 오전 6:43:39)
-[2017.06.12-12.43.39:019][301]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
-[2017.06.12-12.43.39:024][301]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004952s)
-[2017.06.12-12.43.39:025][301]LogAIModule: Creating AISystem for world BaseMap
-[2017.06.12-12.43.39:026][301]LogPlayLevel: PIE: World Init took: (0.001514s)
-[2017.06.12-12.43.39:026][301]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.006940s)
-[2017.06.12-12.43.39:112][301]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.06.12-12.43.39:145][301]LogInit: FAudioDevice initialized.
-[2017.06.12-12.43.39:211][301]LogWorld: Game class is '게임모드_C'
-[2017.06.12-12.43.39:215][301]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.12-21.43.39
-[2017.06.12-12.43.39:215][301]LogWorld: Bringing up level for play took: 0.002144
-[2017.06.12-12.43.39:391][301]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: -0.27
-[2017.06.12-12.43.39:392][301]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.06.12-12.43.39:921][317]LogBlueprintUserMessages: [기말게임_50] Hello
-[2017.06.12-12.43.45:250][569]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.06.12-12.43.45:350][569]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
-[2017.06.12-12.46.21:289][748]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2017.06.12-12.46.21:554][748]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
-[2017.06.12-12.46.21:557][748]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
-[2017.06.12-12.46.22:572][748]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
-[2017.06.12-12.46.22:575][748]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
-[2017.06.12-12.46.23:016][749]Cmd: QUIT_EDITOR
-[2017.06.12-12.46.23:339][749]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
-[2017.06.12-12.46.23:340][749]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
-[2017.06.12-12.46.23:445][749]LogExit: Preparing to exit.
-[2017.06.12-12.46.24:100][749]LogExit: Editor shut down
-[2017.06.12-12.46.24:101][749]LogExit: Transaction tracking system shut down
-[2017.06.12-12.46.24:356][749]LogObj: Freed 0b from 0 cluster array pools.
-[2017.06.12-12.46.24:356][749]LogExit: Object subsystem successfully closed.
-[2017.06.12-12.46.24:377][749]LogD3D11RHI: Shutdown
-[2017.06.12-12.46.24:377][749]LogD3D11RHI: CleanupD3DDevice
-[2017.06.12-12.46.24:500][749]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.06.12-12.46.24:540][749]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (216)
-[2017.06.12-12.46.24:540][749]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (215)
-[2017.06.12-12.46.24:540][749]LogModuleManager: Shutting down and abandoning module BlueprintGraph (214)
-[2017.06.12-12.46.24:540][749]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
-[2017.06.12-12.46.24:540][749]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
-[2017.06.12-12.46.24:540][749]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
-[2017.06.12-12.46.24:540][749]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
-[2017.06.12-12.46.24:540][749]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
-[2017.06.12-12.46.24:543][749]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
-[2017.06.12-12.46.24:543][749]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
-[2017.06.12-12.46.24:543][749]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
-[2017.06.12-12.46.24:544][749]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
-[2017.06.12-12.46.24:544][749]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
-[2017.06.12-12.46.24:544][749]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
-[2017.06.12-12.46.24:544][749]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
-[2017.06.12-12.46.24:544][749]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
-[2017.06.12-12.46.24:544][749]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
-[2017.06.12-12.46.24:544][749]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
-[2017.06.12-12.46.24:544][749]LogModuleManager: Shutting down and abandoning module BspMode (198)
-[2017.06.12-12.46.24:544][749]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
-[2017.06.12-12.46.24:544][749]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
-[2017.06.12-12.46.24:544][749]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
-[2017.06.12-12.46.24:544][749]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
-[2017.06.12-12.46.24:544][749]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
-[2017.06.12-12.46.24:544][749]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
-[2017.06.12-12.46.24:545][749]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
-[2017.06.12-12.46.24:545][749]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
-[2017.06.12-12.46.24:545][749]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
-[2017.06.12-12.46.24:545][749]LogModuleManager: Shutting down and abandoning module SessionServices (188)
-[2017.06.12-12.46.24:545][749]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
-[2017.06.12-12.46.24:545][749]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
-[2017.06.12-12.46.24:545][749]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
-[2017.06.12-12.46.24:545][749]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
-[2017.06.12-12.46.24:545][749]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
-[2017.06.12-12.46.24:545][749]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
-[2017.06.12-12.46.24:545][749]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
-[2017.06.12-12.46.24:545][749]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
-[2017.06.12-12.46.25:202][749]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
-[2017.06.12-12.46.25:202][749]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
-[2017.06.12-12.46.25:202][749]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
-[2017.06.12-12.46.25:202][749]LogModuleManager: Shutting down and abandoning module MergeActors (176)
-[2017.06.12-12.46.25:202][749]LogModuleManager: Shutting down and abandoning module SizeMap (175)
-[2017.06.12-12.46.25:202][749]LogModuleManager: Shutting down and abandoning module TreeMap (174)
-[2017.06.12-12.46.25:202][749]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
-[2017.06.12-12.46.25:202][749]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
-[2017.06.12-12.46.25:202][749]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
-[2017.06.12-12.46.25:202][749]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
-[2017.06.12-12.46.25:202][749]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
-[2017.06.12-12.46.25:202][749]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
-[2017.06.12-12.46.25:202][749]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
-[2017.06.12-12.46.25:202][749]LogModuleManager: Shutting down and abandoning module XmlParser (166)
-[2017.06.12-12.46.25:203][749]LogModuleManager: Shutting down and abandoning module Blutility (165)
-[2017.06.12-12.46.25:203][749]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
-[2017.06.12-12.46.25:203][749]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
-[2017.06.12-12.46.25:203][749]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
-[2017.06.12-12.46.25:203][749]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
-[2017.06.12-12.46.25:203][749]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
-[2017.06.12-12.46.25:203][749]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
-[2017.06.12-12.46.25:203][749]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
-[2017.06.12-12.46.25:203][749]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
-[2017.06.12-12.46.25:203][749]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
-[2017.06.12-12.46.25:203][749]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
-[2017.06.12-12.46.25:245][749]LogModuleManager: Shutting down and abandoning module AutomationController (154)
-[2017.06.12-12.46.25:245][749]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
-[2017.06.12-12.46.25:245][749]LogModuleManager: Shutting down and abandoning module Layers (152)
-[2017.06.12-12.46.25:245][749]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
-[2017.06.12-12.46.25:246][749]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
-[2017.06.12-12.46.25:246][749]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
-[2017.06.12-12.46.25:246][749]LogModuleManager: Shutting down and abandoning module Persona (148)
-[2017.06.12-12.46.25:246][749]LogModuleManager: Shutting down and abandoning module Kismet (147)
-[2017.06.12-12.46.25:246][749]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
-[2017.06.12-12.46.25:246][749]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
-[2017.06.12-12.46.25:248][749]LogModuleManager: Shutting down and abandoning module Toolbox (144)
-[2017.06.12-12.46.25:248][749]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
-[2017.06.12-12.46.25:248][749]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
-[2017.06.12-12.46.25:248][749]LogModuleManager: Shutting down and abandoning module OutputLog (141)
-[2017.06.12-12.46.25:248][749]LogModuleManager: Shutting down and abandoning module GammaUI (140)
-[2017.06.12-12.46.25:248][749]LogModuleManager: Shutting down and abandoning module Documentation (139)
-[2017.06.12-12.46.25:249][749]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
-[2017.06.12-12.46.25:249][749]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
-[2017.06.12-12.46.25:249][749]LogModuleManager: Shutting down and abandoning module Analytics (136)
-[2017.06.12-12.46.25:249][749]LogModuleManager: Shutting down and abandoning module PortalServices (135)
-[2017.06.12-12.46.25:249][749]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
-[2017.06.12-12.46.25:249][749]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
-[2017.06.12-12.46.25:249][749]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
-[2017.06.12-12.46.25:249][749]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
-[2017.06.12-12.46.25:249][749]LogModuleManager: Shutting down and abandoning module AIModule (130)
-[2017.06.12-12.46.25:249][749]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
-[2017.06.12-12.46.25:372][749]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
-[2017.06.12-12.46.25:372][749]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
-[2017.06.12-12.46.25:372][749]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
-[2017.06.12-12.46.25:372][749]LogModuleManager: Shutting down and abandoning module SteamVR (125)
-[2017.06.12-12.46.25:372][749]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
-[2017.06.12-12.46.25:372][749]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
-[2017.06.12-12.46.25:372][749]LogModuleManager: Shutting down and abandoning module OculusInput (122)
-[2017.06.12-12.46.25:372][749]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
-[2017.06.12-12.46.25:372][749]LogModuleManager: Shutting down and abandoning module CableComponent (120)
-[2017.06.12-12.46.25:373][749]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
-[2017.06.12-12.46.25:373][749]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
-[2017.06.12-12.46.25:373][749]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
-[2017.06.12-12.46.25:373][749]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
-[2017.06.12-12.46.25:373][749]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
-[2017.06.12-12.46.25:373][749]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
-[2017.06.12-12.46.25:373][749]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
-[2017.06.12-12.46.25:373][749]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
-[2017.06.12-12.46.25:373][749]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
-[2017.06.12-12.46.25:373][749]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
-[2017.06.12-12.46.25:373][749]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
-[2017.06.12-12.46.25:373][749]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
-[2017.06.12-12.46.25:373][749]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
-[2017.06.12-12.46.25:373][749]LogModuleManager: Shutting down and abandoning module SourceControl (106)
-[2017.06.12-12.46.25:373][749]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
-[2017.06.12-12.46.25:373][749]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
-[2017.06.12-12.46.25:373][749]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
-[2017.06.12-12.46.25:373][749]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
-[2017.06.12-12.46.25:373][749]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
-[2017.06.12-12.46.25:373][749]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
-[2017.06.12-12.46.25:373][749]LogModuleManager: Shutting down and abandoning module HotReload (99)
-[2017.06.12-12.46.25:374][749]LogModuleManager: Shutting down and abandoning module MainFrame (98)
-[2017.06.12-12.46.25:374][749]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
-[2017.06.12-12.46.25:375][749]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
-[2017.06.12-12.46.25:376][749]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
-[2017.06.12-12.46.25:376][749]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
-[2017.06.12-12.46.25:477][749]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
-[2017.06.12-12.46.25:477][749]LogModuleManager: Shutting down and abandoning module Paper2D (92)
-[2017.06.12-12.46.25:477][749]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
-[2017.06.12-12.46.25:477][749]LogModuleManager: Shutting down and abandoning module Media (90)
-[2017.06.12-12.46.25:477][749]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
-[2017.06.12-12.46.25:477][749]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
-[2017.06.12-12.46.25:477][749]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
-[2017.06.12-12.46.25:477][749]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
-[2017.06.12-12.46.25:477][749]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
-[2017.06.12-12.46.25:477][749]LogModuleManager: Shutting down and abandoning module VREditor (84)
-[2017.06.12-12.46.25:477][749]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
-[2017.06.12-12.46.25:477][749]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
-[2017.06.12-12.46.25:477][749]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
-[2017.06.12-12.46.25:477][749]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
-[2017.06.12-12.46.25:477][749]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
-[2017.06.12-12.46.25:477][749]LogModuleManager: Shutting down and abandoning module Sequencer (78)
-[2017.06.12-12.46.25:477][749]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
-[2017.06.12-12.46.25:477][749]LogModuleManager: Shutting down and abandoning module MessageLog (76)
-[2017.06.12-12.46.25:477][749]LogModuleManager: Shutting down and abandoning module AssetTools (75)
-[2017.06.12-12.46.25:477][749]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
-[2017.06.12-12.46.25:477][749]LogModuleManager: Shutting down and abandoning module UMG (73)
-[2017.06.12-12.46.25:477][749]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
-[2017.06.12-12.46.25:477][749]LogModuleManager: Shutting down and abandoning module Slate (71)
-[2017.06.12-12.46.25:477][749]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
-[2017.06.12-12.46.25:482][749]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
-[2017.06.12-12.46.25:482][749]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
-[2017.06.12-12.46.25:482][749]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
-[2017.06.12-12.46.25:482][749]LogModuleManager: Shutting down and abandoning module Networking (65)
-[2017.06.12-12.46.25:482][749]LogModuleManager: Shutting down and abandoning module Core (64)
-[2017.06.12-12.46.25:482][749]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
-[2017.06.12-12.46.25:483][749]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
-[2017.06.12-12.46.26:524][749]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
-[2017.06.12-12.46.26:524][749]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
-[2017.06.12-12.46.26:524][749]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
-[2017.06.12-12.46.26:524][749]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
-[2017.06.12-12.46.26:612][749]LogDerivedDataCache: Shutdown
-[2017.06.12-12.46.26:612][749]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
-[2017.06.12-12.46.26:612][749]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
-[2017.06.12-12.46.26:612][749]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
-[2017.06.12-12.46.26:612][749]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
-[2017.06.12-12.46.26:612][749]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
-[2017.06.12-12.46.26:612][749]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
-[2017.06.12-12.46.26:612][749]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
-[2017.06.12-12.46.26:612][749]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
-[2017.06.12-12.46.26:612][749]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
-[2017.06.12-12.46.26:612][749]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
-[2017.06.12-12.46.26:612][749]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
-[2017.06.12-12.46.26:612][749]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
-[2017.06.12-12.46.26:612][749]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
-[2017.06.12-12.46.26:612][749]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
-[2017.06.12-12.46.26:612][749]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
-[2017.06.12-12.46.26:612][749]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
-[2017.06.12-12.46.26:612][749]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
-[2017.06.12-12.46.26:612][749]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
-[2017.06.12-12.46.26:612][749]LogModuleManager: Shutting down and abandoning module Messaging (39)
-[2017.06.12-12.46.26:612][749]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
-[2017.06.12-12.46.26:612][749]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
-[2017.06.12-12.46.26:612][749]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
-[2017.06.12-12.46.26:612][749]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
-[2017.06.12-12.46.26:612][749]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
-[2017.06.12-12.46.26:612][749]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
-[2017.06.12-12.46.26:613][749]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
-[2017.06.12-12.46.26:613][749]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
-[2017.06.12-12.46.26:613][749]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
-[2017.06.12-12.46.26:613][749]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
-[2017.06.12-12.46.26:613][749]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
-[2017.06.12-12.46.26:613][749]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
-[2017.06.12-12.46.26:613][749]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
-[2017.06.12-12.46.26:613][749]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
-[2017.06.12-12.46.26:613][749]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
-[2017.06.12-12.46.26:613][749]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
-[2017.06.12-12.46.26:613][749]LogModuleManager: Shutting down and abandoning module InputCore (22)
-[2017.06.12-12.46.26:613][749]LogModuleManager: Shutting down and abandoning module Settings (21)
-[2017.06.12-12.46.26:613][749]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
-[2017.06.12-12.46.26:613][749]LogModuleManager: Shutting down and abandoning module HTTP (18)
-[2017.06.12-12.46.29:620][749]LogModuleManager: Shutting down and abandoning module XMPP (17)
-[2017.06.12-12.46.29:620][749]LogModuleManager: Shutting down and abandoning module OculusRift (16)
-[2017.06.12-12.46.29:620][749]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2017.06.12-12.46.29:620][749]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2017.06.12-12.46.29:620][749]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2017.06.12-12.46.29:620][749]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2017.06.12-12.46.29:620][749]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2017.06.12-12.46.29:630][749]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2017.06.12-12.46.29:630][749]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2017.06.12-12.46.29:630][749]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2017.06.12-12.46.29:630][749]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2017.06.12-12.46.29:630][749]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2017.06.12-12.46.29:630][749]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2017.06.12-12.46.29:630][749]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2017.06.12-12.46.29:630][749]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2017.06.12-12.46.29:630][749]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2017.06.12-12.46.29:630][749]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2017.06.12-12.46.29:632][749]LogExit: Exiting.
-[2017.06.12-12.46.29:635][749]Log file closed, 06/12/17 21:46:29
+[2017.06.14-14.52.08:894][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.14-14.52.09:489][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.06.14-14.52.09:489][  0]LogD3D11RHI:       4058/0/8180 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.14-14.52.09:492][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.14-14.52.09:492][  0]LogD3D11RHI:       0/0/8180 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.14-14.52.09:492][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.14-14.52.09:500][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.14-14.52.09:500][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.14-14.52.09:500][  0]LogWindows: EnumDisplayDevices:
+[2017.06.14-14.52.09:500][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.06.14-14.52.09:501][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.06.14-14.52.09:502][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.06.14-14.52.09:503][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.06.14-14.52.09:503][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.06.14-14.52.09:503][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.06.14-14.52.09:503][  0]LogD3D11RHI:   Driver Version: 376.53 (internal:21.21.13.7653, unified:376.53)
+[2017.06.14-14.52.09:503][  0]LogD3D11RHI:      Driver Date: 12-29-2016
+[2017.06.14-14.52.09:503][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.14-14.52.10:043][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.14-14.52.10:115][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.14-14.52.10:116][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Intermediate/Shaders/WorkingDirectory/6980/).
+[2017.06.14-14.52.10:116][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/COMPUT~1/AppData/Local/Temp/UnrealShaderWorkingDir/1D9E34AA431975F770D1E58C02EE74E6/'.
+[2017.06.14-14.52.10:116][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.14-14.52.12:347][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.14-14.52.12:367][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.14-14.52.12:385][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.14-14.52.12:401][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.14-14.52.12:416][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.14-14.52.12:430][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.14-14.52.12:443][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.14-14.52.12:456][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.14-14.52.12:468][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.14-14.52.12:486][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.14-14.52.12:501][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.14-14.52.12:526][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.14-14.52.12:526][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.14-14.52.12:528][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.14-14.52.12:558][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.14-14.52.12:570][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.14-14.52.12:584][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.14-14.52.12:596][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.14-14.52.12:609][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.14-14.52.12:609][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.14-14.52.12:739][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.14-14.52.12:823][  0]LogDerivedDataCache: Loaded boot cache 0.08s 48MB C:/Users/computer-1/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.06.14-14.52.12:824][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/computer-1/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2017.06.14-14.52.12:824][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.14-14.52.12:824][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.14-14.52.12:824][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.14-14.52.12:824][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.14-14.52.12:850][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.14-14.52.12:864][  0]LogDerivedDataCache: Using Local data cache path C:/Users/computer-1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.14-14.52.13:210][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.14-14.52.13:211][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.14-14.52.13:629][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.06.14-14.52.13:629][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.14-14.52.13:629][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.06.14-14.52.14:040][  0]LogAssetRegistry: FAssetRegistry took 0.0221 seconds to start up
+[2017.06.14-14.52.14:742][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.697680 seconds
+[2017.06.14-14.52.14:749][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2017.06.14-14.52.14:749][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2017.06.14-14.52.14:749][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.14-14.52.14:761][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.14-14.52.15:071][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.14-14.52.15:072][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.14-14.52.16:238][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.14-14.52.16:774][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.06.14-14.52.16:776][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.06.14-14.52.16:795][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.06.14-14.52.16:813][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.06.14-14.52.17:227][  0]LogEngine: Initializing Engine...
+[2017.06.14-14.52.17:229][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.06.14-14.52.17:230][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.06.14-14.52.17:425][  0]LogAIModule: Creating AISystem for world NewWorld
+[2017.06.14-14.52.17:447][  0]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.14-14.52.17:489][  0]LogInit: FAudioDevice initialized.
+[2017.06.14-14.52.17:542][  0]LogDerivedDataCache: Saved boot cache 0.05s 48MB C:/Users/computer-1/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.06.14-14.52.17:557][  0]LogInit: Texture streaming: Enabled
+[2017.06.14-14.52.17:604][  0]LogInit: Transaction tracking system initialized
+[2017.06.14-14.52.17:642][  0]BlueprintLog: New page: 에디터 로드
+[2017.06.14-14.52.17:830][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2017.06.14-14.52.17:935][  0]LogConsoleResponse:Display: 
+[2017.06.14-14.52.18:106][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2017.06.14-14.52.18:107][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.14-14.52.18:230][  0]LogFileCache: Scanning file cache for directory 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/' took 0.03s
+[2017.06.14-14.52.18:293][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.06.14-14.52.18:293][  0]Cmd: MAP LOAD FILE="E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/Maps/BaseMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.14-14.52.18:356][  0]LightingResults: New page: 라이팅 빌드
+[2017.06.14-14.52.18:362][  0]MapCheck: New page: 맵 체크
+[2017.06.14-14.52.18:362][  0]LightingResults: New page: 라이팅 빌드
+[2017.06.14-14.52.19:172][  0]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.14-14.52.19:182][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.14-14.52.19:186][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.14-14.52.19:297][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 110.403ms.
+[2017.06.14-14.52.19:297][  0]LogFileHelpers: Loading map 'BaseMap' took 1.003
+[2017.06.14-14.52.19:519][  0]LogCollectionManager: Loaded 0 collections in 0.002515 seconds
+[2017.06.14-14.52.19:586][  0]LogFileCache: Scanning file cache for directory 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/Collections/' took 0.01s
+[2017.06.14-14.52.19:586][  0]LogFileCache: Scanning file cache for directory 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/Developers/computer1/Collections/' took 0.01s
+[2017.06.14-14.52.19:586][  0]LogFileCache: Scanning file cache for directory 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/Collections/' took 0.01s
+[2017.06.14-14.52.19:586][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000008 seconds
+[2017.06.14-14.52.19:604][  0]LogContentBrowser: Native class hierarchy populated in 0.0149 seconds. Added 2047 classes and 369 folders.
+[2017.06.14-14.52.19:615][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.14-14.52.19:615][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.14-14.52.19:616][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0008 seconds. Added 12 classes and 0 folders.
+[2017.06.14-14.52.19:627][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.06.14-14.52.20:072][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.06.14-14.52.20:143][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.06.14-14.52.20:262][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.14-14.52.20:275][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2017.06.14-14.52.20:306][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.06.14-14.52.20:306][  0]LogLoad: Full Startup: 14.35 seconds (BP compile: 0.10 seconds)
+[2017.06.14-14.52.20:306][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.14-14.52.20:306][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.14-14.52.20:345][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.06.14-14.52.20:346][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.06.14-14.52.20:350][  0]LogOcInput: OculusInput pre-init called
+[2017.06.14-14.52.20:369][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.14-14.52.20:603][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2017.06.14-14.52.20:839][  2]LogAssetRegistry: Asset discovery search completed in 6.8216 seconds
+[2017.06.14-14.52.20:839][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.06.14-14.52.20:839][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
+[2017.06.14-14.52.31:124][ 95]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 111 classes and 0 folders.
+[2017.06.14-14.54.00:228][508]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_11 or K2Node_CommutativeAssociativeBinaryOperator /Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임:ExecuteUbergraph_기말게임.K2Node_CommutativeAssociativeBinaryOperator_11
+[2017.06.14-14.54.00:228][508]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_11 or K2Node_CommutativeAssociativeBinaryOperator /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CommutativeAssociativeBinaryOperator_11
+[2017.06.14-14.54.00:228][508]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_11.EdGraphPin_278''
+[2017.06.14-14.54.00:229][508]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임:EventGraph.K2Node_CallFunction_96 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_96
+[2017.06.14-14.54.00:229][508]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_96.EdGraphPin_302''
+[2017.06.14-14.54.00:229][508]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_10 or K2Node_CommutativeAssociativeBinaryOperator /Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임:ExecuteUbergraph_기말게임.K2Node_CommutativeAssociativeBinaryOperator_10
+[2017.06.14-14.54.00:229][508]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_10 or K2Node_CommutativeAssociativeBinaryOperator /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CommutativeAssociativeBinaryOperator_10
+[2017.06.14-14.54.00:229][508]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_10.EdGraphPin_272''
+[2017.06.14-14.54.00:230][508]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_11 or K2Node_CommutativeAssociativeBinaryOperator /Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임:ExecuteUbergraph_기말게임.K2Node_CommutativeAssociativeBinaryOperator_11
+[2017.06.14-14.54.00:230][508]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_11 or K2Node_CommutativeAssociativeBinaryOperator /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CommutativeAssociativeBinaryOperator_11
+[2017.06.14-14.54.00:230][508]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_11.EdGraphPin_276''
+[2017.06.14-14.54.00:231][508]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_101.EdGraphPin_128''
+[2017.06.14-14.55.10:354][529]LogEditorTransaction: Undo 핀 링크 생성
+[2017.06.14-14.55.10:877][550]LogEditorTransaction: Undo 노드 이동
+[2017.06.14-14.55.13:178][714]LogEditorTransaction: Undo 핀 링크 생성
+[2017.06.14-14.55.22:819][383]LogEditorTransaction: Undo 노드 이동
+[2017.06.14-14.55.23:436][413]LogEditorTransaction: Undo 핀 링크 생성
+[2017.06.14-14.55.23:925][439]LogEditorTransaction: Undo 노드 이동
+[2017.06.14-14.56.22:464][532]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임:EventGraph.K2Node_CallFunction_479 or K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_479
+[2017.06.14-14.56.22:464][532]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_479.EdGraphPin_290''
+[2017.06.14-14.57.29:288][809]BlueprintLog: New page: 기말게임 컴파일
+[2017.06.14-14.57.29:329][809]LogBlueprint:Error: Compiler 오류 이 블루프린트(self)는 SceneComponent 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2017.06.14-14.57.29:448][809]LogTexture:Display: 텍스처 빌드중: BadBlueprintSprite (BGRA8)
+[2017.06.14-14.57.29:811][809]LogBlueprint:Warning: Compiler 경고 [0323.85] 기말게임 컴파일에 실패했습니다. 치명적 문제 1 회, 경고 0 회, [소요시간 522 ms] (/Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임)
+[2017.06.14-14.57.29:811][809]BlueprintEditorCompileResults:Error: 오류 이 블루프린트(self)는 SceneComponent 가 아니라, ' 타겟 ' 에는 연결이 있어야 합니다.
+[2017.06.14-14.57.29:811][809]BlueprintEditorCompileResults:Warning: 경고 [0323.85] 기말게임 컴파일에 실패했습니다. 치명적 문제 1 회, 경고 0 회, [소요시간 522 ms] (/Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임)
+[2017.06.14-14.57.41:507][506]BlueprintLog: New page: 기말게임 컴파일
+[2017.06.14-14.57.41:658][506]BlueprintEditorCompileResults: 정보 [0335.70] 기말게임 컴파일에 성공했습니다! [소요시간 151 ms] (/Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임)
+[2017.06.14-14.57.42:771][563]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.06.14-14.57.42:771][563]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.14-14.57.42:782][563]PIE: New page: PIE 세션: BaseMap (2017. 6. 15. 오전 8:57:42)
+[2017.06.14-14.57.42:782][563]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.14-14.57.42:786][563]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003905s)
+[2017.06.14-14.57.42:787][563]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.14-14.57.42:787][563]LogPlayLevel: PIE: World Init took: (0.001038s)
+[2017.06.14-14.57.42:787][563]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.005196s)
+[2017.06.14-14.57.42:835][563]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.14-14.57.42:866][563]LogInit: FAudioDevice initialized.
+[2017.06.14-14.57.42:939][563]LogWorld: Game class is '게임모드_C'
+[2017.06.14-14.57.42:943][563]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.14-23.57.42
+[2017.06.14-14.57.42:944][563]LogWorld: Bringing up level for play took: 0.001949
+[2017.06.14-14.57.42:954][563]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.06.14-14.57.43:113][563]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: -0.211
+[2017.06.14-14.57.43:114][563]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.06.14-14.57.43:179][563]LogRenderer: Reallocating scene render targets to support 1292x756 (Frame:166).
+[2017.06.14-14.57.43:707][586]LogBlueprintUserMessages: [기말게임_50] Hi
+[2017.06.14-14.57.44:039][602]LogBlueprintUserMessages: [기말게임_50] Hi
+[2017.06.14-14.57.44:392][620]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.14-14.57.45:556][678]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.14-14.57.46:096][705]LogBlueprintUserMessages: [기말게임_50] Hi
+[2017.06.14-14.57.47:313][765]LogBlueprintUserMessages: [기말게임_50] Hi
+[2017.06.14-14.57.47:839][791]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.14-14.57.49:625][874]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.06.14-14.57.49:677][874]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.06.14-14.58.13:625][516]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.06.14-14.58.13:625][516]BlueprintLog: New page: 플레이 전 자동 컴파일
+[2017.06.14-14.58.13:645][516]LogPlayLevel: [PlayLevel] Compiling 기말게임 before play...
+[2017.06.14-14.58.13:777][516]LogPlayLevel: PlayLevel: Blueprint regeneration took 152 ms (1 blueprints)
+[2017.06.14-14.58.13:808][516]PIE: New page: PIE 세션: BaseMap (2017. 6. 15. 오전 8:58:13)
+[2017.06.14-14.58.13:808][516]LogPlayLevel: Creating play world package: /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap
+[2017.06.14-14.58.13:811][516]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002977s)
+[2017.06.14-14.58.13:812][516]LogAIModule: Creating AISystem for world BaseMap
+[2017.06.14-14.58.13:812][516]LogPlayLevel: PIE: World Init took: (0.001376s)
+[2017.06.14-14.58.13:813][516]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap to /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap (0.004624s)
+[2017.06.14-14.58.13:855][516]LogInit: XAudio2 using '스피커(Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.14-14.58.13:886][516]LogInit: FAudioDevice initialized.
+[2017.06.14-14.58.13:944][516]LogWorld: Game class is '게임모드_C'
+[2017.06.14-14.58.13:947][516]LogWorld: Bringing World /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap.BaseMap up for play (max tick rate 0) at 2017.06.14-23.58.13
+[2017.06.14-14.58.13:947][516]LogWorld: Bringing up level for play took: 0.001907
+[2017.06.14-14.58.14:056][516]PIE: 정보 /Game/기말과제를끝내기위한폴더/Maps/UEDPIE_0_BaseMap 에 대한 에디터에서 플레이 시작 시간: 0.731
+[2017.06.14-14.58.14:056][516]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.06.14-14.58.14:706][541]LogBlueprintUserMessages: [기말게임_50] Hi
+[2017.06.14-14.58.15:679][595]LogBlueprintUserMessages: [기말게임_50] Hi
+[2017.06.14-14.58.16:492][640]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.14-14.58.17:327][686]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.14-14.58.18:283][738]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.14-14.58.19:239][791]LogBlueprintUserMessages: [기말게임_50] Hi
+[2017.06.14-14.58.19:721][818]LogBlueprintUserMessages: [기말게임_50] Hi
+[2017.06.14-14.58.20:528][862]LogBlueprintUserMessages: [기말게임_50] Hi
+[2017.06.14-14.58.21:548][919]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.14-14.58.21:955][941]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.14-14.58.22:759][986]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.14-14.58.23:854][ 47]LogBlueprintUserMessages: [기말게임_50] Hi
+[2017.06.14-14.58.24:263][ 70]LogBlueprintUserMessages: [기말게임_50] Hi
+[2017.06.14-14.58.25:161][120]LogBlueprintUserMessages: [기말게임_50] Hi
+[2017.06.14-14.58.26:257][181]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.14-14.58.26:861][214]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.14-14.58.27:726][262]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.14-14.58.28:793][321]LogBlueprintUserMessages: [기말게임_50] Hi
+[2017.06.14-14.58.29:189][343]LogBlueprintUserMessages: [기말게임_50] Hi
+[2017.06.14-14.58.30:097][393]LogBlueprintUserMessages: [기말게임_50] Hi
+[2017.06.14-14.58.31:129][451]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.14-14.58.31:828][490]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.14-14.58.32:790][543]LogBlueprintUserMessages: [기말게임_50] Hello
+[2017.06.14-14.58.33:756][597]LogBlueprintUserMessages: [기말게임_50] Hi
+[2017.06.14-14.58.34:192][621]LogBlueprintUserMessages: [기말게임_50] Hi
+[2017.06.14-14.58.35:213][678]LogBlueprintUserMessages: [기말게임_50] Hi
+[2017.06.14-14.58.37:465][796]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.06.14-14.58.37:514][796]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel' has LevelScriptBlueprint '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap' with GeneratedClass '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap_C' with ClassGeneratedBy '/Game/기말과제를끝내기위한폴더/Maps/BaseMap.BaseMap:PersistentLevel.BaseMap'
+[2017.06.14-14.58.39:785][894]LogSavePackage: Save=234.80ms
+[2017.06.14-14.58.39:785][894]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/BaseMap69602D6C4756656350CD4285E12399A4.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/Maps/BaseMap.umap'
+[2017.06.14-14.58.39:881][894]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/Maps/BaseMap.umap
+[2017.06.14-14.58.40:079][894]LogFileHelpers: Saving map 'BaseMap' took 0.804
+[2017.06.14-14.58.40:131][894]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/기말과제를끝내기위한폴더/메인/기말게임" FILE="E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/메인/기말게임.uasset" SILENT=true
+[2017.06.14-14.58.40:432][894]LogSavePackage: Save=214.73ms
+[2017.06.14-14.58.40:432][894]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/기말게임8D575ADB4D209B5875E3CBA0D129E6DB.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/메인/기말게임.uasset'
+[2017.06.14-14.58.40:530][894]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/메인/기말게임.uasset
+[2017.06.14-14.59.48:210][ 12]BlueprintLog: New page: 기말게임 컴파일
+[2017.06.14-14.59.48:381][ 12]BlueprintEditorCompileResults: 정보 [0462.42] 기말게임 컴파일에 성공했습니다! [소요시간 171 ms] (/Game/기말과제를끝내기위한폴더/메인/기말게임.기말게임)
+[2017.06.14-14.59.49:968][ 75]LogSavePackage: Save=240.02ms
+[2017.06.14-14.59.49:969][ 75]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/BaseMap2D4E19BC432A23C23077E49EA96D4BBF.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/Maps/BaseMap.umap'
+[2017.06.14-14.59.50:051][ 75]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/Maps/BaseMap.umap
+[2017.06.14-14.59.50:223][ 75]LogFileHelpers: Saving map 'BaseMap' took 0.702
+[2017.06.14-14.59.50:245][ 75]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/기말과제를끝내기위한폴더/메인/기말게임" FILE="E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/메인/기말게임.uasset" SILENT=true
+[2017.06.14-14.59.50:487][ 75]LogSavePackage: Save=198.41ms
+[2017.06.14-14.59.50:489][ 75]LogSavePackage: Moving 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Saved/기말게임7884A37E420BC1E37A68B9B3046521A7.tmp' to 'E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/메인/기말게임.uasset'
+[2017.06.14-14.59.50:573][ 75]LogSavePackage:Display: Finished SavePackage E:/__학교/3학년 1학기 과제/게임 소프트웨어 디자인2/GSD2LYAHEY/기말고사주것으면좋겟다/Content/기말과제를끝내기위한폴더/메인/기말게임.uasset
+[2017.06.14-14.59.55:376][458]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.06.14-14.59.55:377][458]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.06.14-14.59.55:488][458]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.06.14-14.59.55:489][458]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.06.14-14.59.55:803][459]Cmd: QUIT_EDITOR
+[2017.06.14-14.59.56:703][459]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.06.14-14.59.56:704][459]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.06.14-14.59.56:772][459]LogExit: Preparing to exit.
+[2017.06.14-14.59.57:644][459]LogExit: Editor shut down
+[2017.06.14-14.59.57:646][459]LogExit: Transaction tracking system shut down
+[2017.06.14-14.59.57:862][459]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.14-14.59.57:862][459]LogExit: Object subsystem successfully closed.
+[2017.06.14-14.59.57:877][459]LogD3D11RHI: Shutdown
+[2017.06.14-14.59.57:877][459]LogD3D11RHI: CleanupD3DDevice
+[2017.06.14-14.59.57:961][459]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.14-14.59.57:995][459]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (215)
+[2017.06.14-14.59.57:995][459]LogModuleManager: Shutting down and abandoning module BlueprintGraph (214)
+[2017.06.14-14.59.57:995][459]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2017.06.14-14.59.57:995][459]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2017.06.14-14.59.57:995][459]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2017.06.14-14.59.57:995][459]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2017.06.14-14.59.57:995][459]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2017.06.14-14.59.57:997][459]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2017.06.14-14.59.57:997][459]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2017.06.14-14.59.57:997][459]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2017.06.14-14.59.57:997][459]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2017.06.14-14.59.57:997][459]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2017.06.14-14.59.57:997][459]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2017.06.14-14.59.57:997][459]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2017.06.14-14.59.57:997][459]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2017.06.14-14.59.57:998][459]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2017.06.14-14.59.57:998][459]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2017.06.14-14.59.57:998][459]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2017.06.14-14.59.57:998][459]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2017.06.14-14.59.57:998][459]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2017.06.14-14.59.57:998][459]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2017.06.14-14.59.57:998][459]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2017.06.14-14.59.57:998][459]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2017.06.14-14.59.57:998][459]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2017.06.14-14.59.57:998][459]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2017.06.14-14.59.57:998][459]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2017.06.14-14.59.57:998][459]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2017.06.14-14.59.57:998][459]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2017.06.14-14.59.57:998][459]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2017.06.14-14.59.57:998][459]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2017.06.14-14.59.57:998][459]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2017.06.14-14.59.57:998][459]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2017.06.14-14.59.57:999][459]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2017.06.14-14.59.57:999][459]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2017.06.14-14.59.57:999][459]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2017.06.14-14.59.57:999][459]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2017.06.14-14.59.58:037][459]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2017.06.14-14.59.58:037][459]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2017.06.14-14.59.58:037][459]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2017.06.14-14.59.58:037][459]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2017.06.14-14.59.58:037][459]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2017.06.14-14.59.58:037][459]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2017.06.14-14.59.58:037][459]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2017.06.14-14.59.58:037][459]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2017.06.14-14.59.58:037][459]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2017.06.14-14.59.58:037][459]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2017.06.14-14.59.58:037][459]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2017.06.14-14.59.58:037][459]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2017.06.14-14.59.58:037][459]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2017.06.14-14.59.58:037][459]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2017.06.14-14.59.58:037][459]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2017.06.14-14.59.58:037][459]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2017.06.14-14.59.58:037][459]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2017.06.14-14.59.58:037][459]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2017.06.14-14.59.58:037][459]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2017.06.14-14.59.58:037][459]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2017.06.14-14.59.58:037][459]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2017.06.14-14.59.58:037][459]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2017.06.14-14.59.58:038][459]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2017.06.14-14.59.58:038][459]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2017.06.14-14.59.58:038][459]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2017.06.14-14.59.58:080][459]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2017.06.14-14.59.58:080][459]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2017.06.14-14.59.58:080][459]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2017.06.14-14.59.58:080][459]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2017.06.14-14.59.58:081][459]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2017.06.14-14.59.58:081][459]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2017.06.14-14.59.58:081][459]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2017.06.14-14.59.58:081][459]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2017.06.14-14.59.58:081][459]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2017.06.14-14.59.58:081][459]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2017.06.14-14.59.58:081][459]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2017.06.14-14.59.58:081][459]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2017.06.14-14.59.58:082][459]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2017.06.14-14.59.58:082][459]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2017.06.14-14.59.58:082][459]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2017.06.14-14.59.58:082][459]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2017.06.14-14.59.58:082][459]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2017.06.14-14.59.58:082][459]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2017.06.14-14.59.58:082][459]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2017.06.14-14.59.58:082][459]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2017.06.14-14.59.58:082][459]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2017.06.14-14.59.58:082][459]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2017.06.14-14.59.58:082][459]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2017.06.14-14.59.58:082][459]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2017.06.14-14.59.58:082][459]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2017.06.14-14.59.58:082][459]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2017.06.14-14.59.58:112][459]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2017.06.14-14.59.58:112][459]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2017.06.14-14.59.58:112][459]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2017.06.14-14.59.58:112][459]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2017.06.14-14.59.58:112][459]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2017.06.14-14.59.58:112][459]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2017.06.14-14.59.58:112][459]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2017.06.14-14.59.58:112][459]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2017.06.14-14.59.58:112][459]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2017.06.14-14.59.58:112][459]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2017.06.14-14.59.58:112][459]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2017.06.14-14.59.58:112][459]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2017.06.14-14.59.58:112][459]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2017.06.14-14.59.58:112][459]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2017.06.14-14.59.58:112][459]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2017.06.14-14.59.58:113][459]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2017.06.14-14.59.58:113][459]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2017.06.14-14.59.58:113][459]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2017.06.14-14.59.58:113][459]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2017.06.14-14.59.58:113][459]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2017.06.14-14.59.58:113][459]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2017.06.14-14.59.58:113][459]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2017.06.14-14.59.58:113][459]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2017.06.14-14.59.58:113][459]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2017.06.14-14.59.58:113][459]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2017.06.14-14.59.58:113][459]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2017.06.14-14.59.58:113][459]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2017.06.14-14.59.58:113][459]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2017.06.14-14.59.58:113][459]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2017.06.14-14.59.58:113][459]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2017.06.14-14.59.58:115][459]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2017.06.14-14.59.58:115][459]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2017.06.14-14.59.58:116][459]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2017.06.14-14.59.58:117][459]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2017.06.14-14.59.58:117][459]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2017.06.14-14.59.58:218][459]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2017.06.14-14.59.58:218][459]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2017.06.14-14.59.58:218][459]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2017.06.14-14.59.58:218][459]LogModuleManager: Shutting down and abandoning module Media (90)
+[2017.06.14-14.59.58:218][459]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2017.06.14-14.59.58:218][459]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2017.06.14-14.59.58:218][459]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2017.06.14-14.59.58:218][459]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2017.06.14-14.59.58:218][459]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2017.06.14-14.59.58:218][459]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2017.06.14-14.59.58:218][459]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2017.06.14-14.59.58:218][459]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2017.06.14-14.59.58:218][459]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2017.06.14-14.59.58:218][459]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2017.06.14-14.59.58:218][459]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2017.06.14-14.59.58:218][459]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2017.06.14-14.59.58:218][459]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2017.06.14-14.59.58:218][459]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2017.06.14-14.59.58:218][459]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2017.06.14-14.59.58:218][459]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2017.06.14-14.59.58:218][459]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2017.06.14-14.59.58:218][459]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2017.06.14-14.59.58:218][459]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2017.06.14-14.59.58:218][459]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2017.06.14-14.59.58:222][459]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2017.06.14-14.59.58:222][459]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2017.06.14-14.59.58:222][459]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2017.06.14-14.59.58:222][459]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2017.06.14-14.59.58:222][459]LogModuleManager: Shutting down and abandoning module Core (64)
+[2017.06.14-14.59.58:222][459]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2017.06.14-14.59.58:223][459]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2017.06.14-14.59.59:233][459]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2017.06.14-14.59.59:233][459]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2017.06.14-14.59.59:233][459]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2017.06.14-14.59.59:233][459]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2017.06.14-14.59.59:252][459]LogDerivedDataCache: Shutdown
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2017.06.14-14.59.59:252][459]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2017.06.14-14.59.59:253][459]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2017.06.14-14.59.59:253][459]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2017.06.14-15.00.00:754][459]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2017.06.14-15.00.00:755][459]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2017.06.14-15.00.00:755][459]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2017.06.14-15.00.00:755][459]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.06.14-15.00.00:755][459]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.06.14-15.00.00:755][459]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.06.14-15.00.00:755][459]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.06.14-15.00.00:761][459]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.06.14-15.00.00:761][459]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.06.14-15.00.00:761][459]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.06.14-15.00.00:761][459]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.06.14-15.00.00:761][459]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.06.14-15.00.00:761][459]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.06.14-15.00.00:761][459]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.06.14-15.00.00:761][459]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.06.14-15.00.00:761][459]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.06.14-15.00.00:761][459]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.06.14-15.00.00:763][459]LogExit: Exiting.
+[2017.06.14-15.00.00:765][459]Log file closed, 06/15/17 00:00:00
